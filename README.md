@@ -11,6 +11,7 @@ La aspiración de estar en el 1% superior es un objetivo de desempeño, no una g
 ## Contenido
 
 - [`docs/curso-90-dias.md`](docs/curso-90-dias.md): calendario semanal, práctica diaria, repetición espaciada y proyecto final.
+- [`docs/book/`](docs/book/README.md): libro desarrollado en 13 capítulos, con ejemplos, ejercicios y recuperación activa por semana.
 - [`docs/PIPELINE_OBJETIVO.md`](docs/PIPELINE_OBJETIVO.md): arquitectura de referencia, agentes, estados, paralelismo, seguridad y CI/CD.
 - [`docs/data/question_bank.json`](docs/data/question_bank.json): 100 reactivos en español e inglés.
 - [`docs/examples/`](docs/examples/README.md): seis ejercicios guiados básicos, intermedios y avanzados.

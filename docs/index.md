@@ -5,9 +5,10 @@ Aprende a diseñar un flujo de ingeniería donde varios agentes colaboran para l
 ## Ruta de aprendizaje
 
 1. [Sigue el plan de 90 días](curso-90-dias.md), con práctica semanal y repasos espaciados.
-2. [Estudia la arquitectura objetivo](PIPELINE_OBJETIVO.md): roles, estados, seguridad y gates.
-3. [Practica con escenarios](examples/README.md), desde preparar contexto hasta bloquear un despliegue inseguro.
-4. [Evalúa tu progreso](autoevaluacion.md) con el banco bilingüe y los cuatro cuestionarios.
+2. [Lee el libro de 13 capítulos](book/README.md) para desarrollar cada tema con ejemplos y prácticas.
+3. [Estudia la arquitectura objetivo](PIPELINE_OBJETIVO.md): roles, estados, seguridad y gates.
+4. [Practica con escenarios](examples/README.md), desde preparar contexto hasta bloquear un despliegue inseguro.
+5. [Evalúa tu progreso](autoevaluacion.md) con el banco bilingüe y los cuatro cuestionarios.
 
 ## El pipeline en una vista
 
