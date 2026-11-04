@@ -1,0 +1,37 @@
+site_name: IA Agéntica · Ingeniería de software
+site_description: Curso práctico de 90 días para diseñar y orquestar agentes en un pipeline de Jira a CI/CD.
+site_author: Curso IA Agéntica
+
+docs_dir: docs
+site_dir: site
+strict: true
+
+theme:
+  name: mkdocs
+  locale: es
+
+plugins:
+  - search:
+      lang:
+        - es
+        - en
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+
+nav:
+  - Inicio: index.md
+  - Curso de 90 días: curso-90-dias.md
+  - Pipeline objetivo: PIPELINE_OBJETIVO.md
+  - Autoevaluación: autoevaluacion.md
+  - Ejercicios:
+      - Índice: examples/README.md
+      - Básico · Contexto: examples/01-basic-context-package.md
+      - Básico · Criterios: examples/02-basic-acceptance-criteria.md
+      - Intermedio · Jira: examples/03-intermediate-jira-trigger.md
+      - Intermedio · Pruebas paralelas: examples/04-intermediate-parallel-tests.md
+      - Avanzado · Prompt injection: examples/05-advanced-prompt-injection.md
+      - Avanzado · Release gates: examples/06-advanced-release-gates.md
