@@ -1,0 +1,2302 @@
+[
+  {
+    "id": "AG-001",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué distingue a un agente de IA de un chatbot que solo responde texto?",
+      "en": "What distinguishes an AI agent from a chatbot that only replies with text?"
+    },
+    "answer": {
+      "es": "Un agente puede perseguir un objetivo en un ciclo de observar, decidir y actuar usando herramientas; un chatbot simple solo genera respuestas.",
+      "en": "An agent can pursue a goal in an observe-decide-act loop using tools; a simple chatbot only generates replies."
+    },
+    "explanation": {
+      "es": "Un agente puede perseguir un objetivo en un ciclo de observar, decidir y actuar usando herramientas; un chatbot simple solo genera respuestas.",
+      "en": "An agent can pursue a goal in an observe-decide-act loop using tools; a simple chatbot only generates replies."
+    }
+  },
+  {
+    "id": "AG-002",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es un modelo de lenguaje grande (LLM)?",
+      "en": "What is a large language model (LLM)?"
+    },
+    "answer": {
+      "es": "Un modelo entrenado con grandes corpus para predecir y generar secuencias de lenguaje; no es por sí solo un sistema de ingeniería autónomo.",
+      "en": "A model trained on large corpora to predict and generate language sequences; by itself it is not an autonomous engineering system."
+    },
+    "explanation": {
+      "es": "Un modelo entrenado con grandes corpus para predecir y generar secuencias de lenguaje; no es por sí solo un sistema de ingeniería autónomo.",
+      "en": "A model trained on large corpora to predict and generate language sequences; by itself it is not an autonomous engineering system."
+    }
+  },
+  {
+    "id": "AG-003",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es una herramienta (tool) para un agente?",
+      "en": "What is a tool for an agent?"
+    },
+    "answer": {
+      "es": "Una operación explícita y acotada —por ejemplo, leer un ticket o ejecutar pruebas— que el agente puede solicitar mediante una interfaz definida.",
+      "en": "An explicit, bounded operation—such as reading a ticket or running tests—that the agent can request through a defined interface."
+    },
+    "explanation": {
+      "es": "Una operación explícita y acotada —por ejemplo, leer un ticket o ejecutar pruebas— que el agente puede solicitar mediante una interfaz definida.",
+      "en": "An explicit, bounded operation—such as reading a ticket or running tests—that the agent can request through a defined interface."
+    }
+  },
+  {
+    "id": "AG-004",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es una llamada a herramienta (tool call)?",
+      "en": "What is a tool call?"
+    },
+    "answer": {
+      "es": "Una solicitud estructurada del modelo para ejecutar una herramienta con argumentos; el sistema ejecutor valida y devuelve el resultado al agente.",
+      "en": "A structured model request to execute a tool with arguments; the runtime validates it and returns the result to the agent."
+    },
+    "explanation": {
+      "es": "Una solicitud estructurada del modelo para ejecutar una herramienta con argumentos; el sistema ejecutor valida y devuelve el resultado al agente.",
+      "en": "A structured model request to execute a tool with arguments; the runtime validates it and returns the result to the agent."
+    }
+  },
+  {
+    "id": "AG-005",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué función cumple el prompt de sistema de un agente?",
+      "en": "What is an agent's system prompt for?"
+    },
+    "answer": {
+      "es": "Define su rol, objetivos, límites, formato esperado y reglas de uso de herramientas; no reemplaza los controles técnicos de seguridad.",
+      "en": "It defines the agent's role, goals, boundaries, expected format, and tool-use rules; it does not replace technical security controls."
+    },
+    "explanation": {
+      "es": "Define su rol, objetivos, límites, formato esperado y reglas de uso de herramientas; no reemplaza los controles técnicos de seguridad.",
+      "en": "It defines the agent's role, goals, boundaries, expected format, and tool-use rules; it does not replace technical security controls."
+    }
+  },
+  {
+    "id": "AG-006",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué significa que un agente sea autónomo?",
+      "en": "What does it mean for an agent to be autonomous?"
+    },
+    "answer": {
+      "es": "Que puede realizar algunos pasos sin aprobación humana inmediata dentro de un alcance y permisos previamente definidos; no significa que deba tener acceso ilimitado.",
+      "en": "It can perform some steps without immediate human approval within predefined scope and permissions; it does not mean it should have unrestricted access."
+    },
+    "explanation": {
+      "es": "Que puede realizar algunos pasos sin aprobación humana inmediata dentro de un alcance y permisos previamente definidos; no significa que deba tener acceso ilimitado.",
+      "en": "It can perform some steps without immediate human approval within predefined scope and permissions; it does not mean it should have unrestricted access."
+    }
+  },
+  {
+    "id": "AG-007",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es un ciclo de agente?",
+      "en": "What is an agent loop?"
+    },
+    "answer": {
+      "es": "La secuencia iterativa de recibir estado, razonar o elegir una acción, ejecutarla, revisar el resultado y continuar hasta completar o detenerse.",
+      "en": "The iterative sequence of receiving state, reasoning or choosing an action, executing it, reviewing the result, and continuing until completion or stop."
+    },
+    "explanation": {
+      "es": "La secuencia iterativa de recibir estado, razonar o elegir una acción, ejecutarla, revisar el resultado y continuar hasta completar o detenerse.",
+      "en": "The iterative sequence of receiving state, reasoning or choosing an action, executing it, reviewing the result, and continuing until completion or stop."
+    }
+  },
+  {
+    "id": "AG-008",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué significa orquestar agentes?",
+      "en": "What does agent orchestration mean?"
+    },
+    "answer": {
+      "es": "Coordinar tareas, estado, herramientas, dependencias, límites y traspasos entre agentes para lograr un resultado verificable.",
+      "en": "Coordinating tasks, state, tools, dependencies, limits, and handoffs among agents to achieve a verifiable outcome."
+    },
+    "explanation": {
+      "es": "Coordinar tareas, estado, herramientas, dependencias, límites y traspasos entre agentes para lograr un resultado verificable.",
+      "en": "Coordinating tasks, state, tools, dependencies, limits, and handoffs among agents to achieve a verifiable outcome."
+    }
+  },
+  {
+    "id": "AG-009",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es un agente especializado?",
+      "en": "What is a specialized agent?"
+    },
+    "answer": {
+      "es": "Un agente con una responsabilidad acotada, instrucciones, herramientas y criterios de salida adecuados a una tarea concreta, como análisis o revisión.",
+      "en": "An agent with a bounded responsibility, instructions, tools, and exit criteria suited to a specific task, such as analysis or review."
+    },
+    "explanation": {
+      "es": "Un agente con una responsabilidad acotada, instrucciones, herramientas y criterios de salida adecuados a una tarea concreta, como análisis o revisión.",
+      "en": "An agent with a bounded responsibility, instructions, tools, and exit criteria suited to a specific task, such as analysis or review."
+    }
+  },
+  {
+    "id": "AG-010",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es el contexto de una tarea?",
+      "en": "What is task context?"
+    },
+    "answer": {
+      "es": "La información pertinente para completar una tarea: objetivo, criterios de aceptación, archivos, restricciones, decisiones previas y resultados de herramientas.",
+      "en": "The information relevant to completing a task: goal, acceptance criteria, files, constraints, prior decisions, and tool results."
+    },
+    "explanation": {
+      "es": "La información pertinente para completar una tarea: objetivo, criterios de aceptación, archivos, restricciones, decisiones previas y resultados de herramientas.",
+      "en": "The information relevant to completing a task: goal, acceptance criteria, files, constraints, prior decisions, and tool results."
+    }
+  },
+  {
+    "id": "AG-011",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es una ventana de contexto?",
+      "en": "What is a context window?"
+    },
+    "answer": {
+      "es": "El límite de tokens que un modelo puede procesar en una solicitud; obliga a seleccionar, resumir o recuperar contexto relevante.",
+      "en": "The token limit a model can process in a request; it makes selecting, summarizing, or retrieving relevant context necessary."
+    },
+    "explanation": {
+      "es": "El límite de tokens que un modelo puede procesar en una solicitud; obliga a seleccionar, resumir o recuperar contexto relevante.",
+      "en": "The token limit a model can process in a request; it makes selecting, summarizing, or retrieving relevant context necessary."
+    }
+  },
+  {
+    "id": "AG-012",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es la memoria de un agente?",
+      "en": "What is agent memory?"
+    },
+    "answer": {
+      "es": "Información persistida o recuperada entre pasos o sesiones para dar continuidad; debe tener alcance, retención y controles de privacidad definidos.",
+      "en": "Information persisted or retrieved across steps or sessions for continuity; its scope, retention, and privacy controls must be defined."
+    },
+    "explanation": {
+      "es": "Información persistida o recuperada entre pasos o sesiones para dar continuidad; debe tener alcance, retención y controles de privacidad definidos.",
+      "en": "Information persisted or retrieved across steps or sessions for continuity; its scope, retention, and privacy controls must be defined."
+    }
+  },
+  {
+    "id": "AG-013",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Para qué se usa RAG?",
+      "en": "What is RAG used for?"
+    },
+    "answer": {
+      "es": "Retrieval-Augmented Generation busca documentos relevantes y los incorpora al contexto de generación para fundamentar respuestas en fuentes externas.",
+      "en": "Retrieval-Augmented Generation finds relevant documents and adds them to the generation context to ground answers in external sources."
+    },
+    "explanation": {
+      "es": "Retrieval-Augmented Generation busca documentos relevantes y los incorpora al contexto de generación para fundamentar respuestas en fuentes externas.",
+      "en": "Retrieval-Augmented Generation finds relevant documents and adds them to the generation context to ground answers in external sources."
+    }
+  },
+  {
+    "id": "AG-014",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es un flujo determinista frente a un agente?",
+      "en": "What is a deterministic workflow compared with an agent?"
+    },
+    "answer": {
+      "es": "Un flujo determinista ejecuta pasos y transiciones predefinidos; un agente elige entre acciones según el estado. Los sistemas robustos suelen combinar ambos.",
+      "en": "A deterministic workflow executes predefined steps and transitions; an agent chooses actions based on state. Robust systems often combine both."
+    },
+    "explanation": {
+      "es": "Un flujo determinista ejecuta pasos y transiciones predefinidos; un agente elige entre acciones según el estado. Los sistemas robustos suelen combinar ambos.",
+      "en": "A deterministic workflow executes predefined steps and transitions; an agent chooses actions based on state. Robust systems often combine both."
+    }
+  },
+  {
+    "id": "AG-015",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué significa humano en el circuito (human-in-the-loop)?",
+      "en": "What does human-in-the-loop mean?"
+    },
+    "answer": {
+      "es": "Que una persona revisa, aprueba o corrige pasos de riesgo o ambigüedad antes de permitir que el proceso continúe.",
+      "en": "A person reviews, approves, or corrects risky or ambiguous steps before allowing the process to continue."
+    },
+    "explanation": {
+      "es": "Que una persona revisa, aprueba o corrige pasos de riesgo o ambigüedad antes de permitir que el proceso continúe.",
+      "en": "A person reviews, approves, or corrects risky or ambiguous steps before allowing the process to continue."
+    }
+  },
+  {
+    "id": "AG-016",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es una salida estructurada?",
+      "en": "What is a structured output?"
+    },
+    "answer": {
+      "es": "Una respuesta ajustada a un esquema verificable —por ejemplo JSON validado— que facilita integración y comprobación automática.",
+      "en": "A response that conforms to a verifiable schema—such as validated JSON—to support integration and automated checking."
+    },
+    "explanation": {
+      "es": "Una respuesta ajustada a un esquema verificable —por ejemplo JSON validado— que facilita integración y comprobación automática.",
+      "en": "A response that conforms to a verifiable schema—such as validated JSON—to support integration and automated checking."
+    }
+  },
+  {
+    "id": "AG-017",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es una alucinación de un modelo?",
+      "en": "What is a model hallucination?"
+    },
+    "answer": {
+      "es": "Contenido inventado o incorrecto presentado con seguridad. Se mitiga con fuentes, validación, pruebas y límites de actuación, no solo con prompts.",
+      "en": "Invented or incorrect content presented confidently. It is mitigated with sources, validation, tests, and action limits—not prompts alone."
+    },
+    "explanation": {
+      "es": "Contenido inventado o incorrecto presentado con seguridad. Se mitiga con fuentes, validación, pruebas y límites de actuación, no solo con prompts.",
+      "en": "Invented or incorrect content presented confidently. It is mitigated with sources, validation, tests, and action limits—not prompts alone."
+    }
+  },
+  {
+    "id": "AG-018",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es un criterio de aceptación en una historia de usuario?",
+      "en": "What is an acceptance criterion in a user story?"
+    },
+    "answer": {
+      "es": "Una condición observable y comprobable que define cuándo una necesidad del usuario se considera satisfecha.",
+      "en": "An observable, testable condition that defines when a user need is considered satisfied."
+    },
+    "explanation": {
+      "es": "Una condición observable y comprobable que define cuándo una necesidad del usuario se considera satisfecha.",
+      "en": "An observable, testable condition that defines when a user need is considered satisfied."
+    }
+  },
+  {
+    "id": "AG-019",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué significa mínimo privilegio para un agente?",
+      "en": "What does least privilege mean for an agent?"
+    },
+    "answer": {
+      "es": "Dar al agente solo los permisos y recursos indispensables para su tarea, con límites de alcance y duración.",
+      "en": "Giving an agent only the permissions and resources essential to its task, limited by scope and duration."
+    },
+    "explanation": {
+      "es": "Dar al agente solo los permisos y recursos indispensables para su tarea, con límites de alcance y duración.",
+      "en": "Giving an agent only the permissions and resources essential to its task, limited by scope and duration."
+    }
+  },
+  {
+    "id": "AG-020",
+    "level": {
+      "es": "Básico",
+      "en": "Basic"
+    },
+    "category": {
+      "es": "Fundamentos",
+      "en": "Foundations"
+    },
+    "question": {
+      "es": "¿Qué es una evaluación (eval) de un agente?",
+      "en": "What is an agent evaluation (eval)?"
+    },
+    "answer": {
+      "es": "Una medición repetible de calidad o seguridad sobre casos definidos, usando criterios y resultados esperados.",
+      "en": "A repeatable measurement of quality or safety on defined cases, using criteria and expected outcomes."
+    },
+    "explanation": {
+      "es": "Una medición repetible de calidad o seguridad sobre casos definidos, usando criterios y resultados esperados.",
+      "en": "A repeatable measurement of quality or safety on defined cases, using criteria and expected outcomes."
+    }
+  },
+  {
+    "id": "AG-021",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Diseño de agentes",
+      "en": "Agent design"
+    },
+    "question": {
+      "es": "¿Cuándo conviene usar varios agentes especializados en lugar de uno solo?",
+      "en": "When should you use multiple specialized agents instead of one?"
+    },
+    "answer": {
+      "es": "Cuando las tareas pueden separarse con contratos claros y la especialización mejora calidad, independencia o paralelismo más de lo que cuesta coordinar.",
+      "en": "When tasks can be separated with clear contracts and specialization improves quality, independence, or parallelism more than coordination costs."
+    },
+    "explanation": {
+      "es": "Cuando las tareas pueden separarse con contratos claros y la especialización mejora calidad, independencia o paralelismo más de lo que cuesta coordinar.",
+      "en": "When tasks can be separated with clear contracts and specialization improves quality, independence, or parallelism more than coordination costs."
+    }
+  },
+  {
+    "id": "AG-022",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Diseño de agentes",
+      "en": "Agent design"
+    },
+    "question": {
+      "es": "¿Qué problema resuelve el enrutamiento de agentes?",
+      "en": "What problem does agent routing solve?"
+    },
+    "answer": {
+      "es": "Selecciona el agente o flujo adecuado según tipo, estado, prioridad o riesgo de la tarea, evitando enviar todo a un agente genérico.",
+      "en": "It selects the appropriate agent or workflow based on task type, state, priority, or risk instead of sending everything to a generic agent."
+    },
+    "explanation": {
+      "es": "Selecciona el agente o flujo adecuado según tipo, estado, prioridad o riesgo de la tarea, evitando enviar todo a un agente genérico.",
+      "en": "It selects the appropriate agent or workflow based on task type, state, priority, or risk instead of sending everything to a generic agent."
+    }
+  },
+  {
+    "id": "AG-023",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Diseño de agentes",
+      "en": "Agent design"
+    },
+    "question": {
+      "es": "¿Qué es un contrato de salida entre agentes?",
+      "en": "What is an agent-to-agent output contract?"
+    },
+    "answer": {
+      "es": "Un esquema con campos obligatorios, restricciones, evidencia y estados de éxito o error que hace explícito qué entrega un agente al siguiente.",
+      "en": "A schema with required fields, constraints, evidence, and success or failure states that makes one agent's handoff explicit."
+    },
+    "explanation": {
+      "es": "Un esquema con campos obligatorios, restricciones, evidencia y estados de éxito o error que hace explícito qué entrega un agente al siguiente.",
+      "en": "A schema with required fields, constraints, evidence, and success or failure states that makes one agent's handoff explicit."
+    }
+  },
+  {
+    "id": "AG-024",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Diseño de agentes",
+      "en": "Agent design"
+    },
+    "question": {
+      "es": "¿Cómo descompondrías una historia grande para agentes?",
+      "en": "How would you decompose a large story for agents?"
+    },
+    "answer": {
+      "es": "Separando tareas por componentes y dependencias, preservando contratos de interfaz, criterios de aceptación y un responsable de integración.",
+      "en": "By separating tasks by component and dependency while preserving interface contracts, acceptance criteria, and an integration owner."
+    },
+    "explanation": {
+      "es": "Separando tareas por componentes y dependencias, preservando contratos de interfaz, criterios de aceptación y un responsable de integración.",
+      "en": "By separating tasks by component and dependency while preserving interface contracts, acceptance criteria, and an integration owner."
+    }
+  },
+  {
+    "id": "AG-025",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Diseño de agentes",
+      "en": "Agent design"
+    },
+    "question": {
+      "es": "¿Qué es una máquina de estados en un flujo de agentes?",
+      "en": "What is a state machine in an agent workflow?"
+    },
+    "answer": {
+      "es": "Un modelo explícito de estados válidos y transiciones —por ejemplo Ready, In Progress, Review, Failed— que controla qué acciones pueden ocurrir.",
+      "en": "An explicit model of valid states and transitions—such as Ready, In Progress, Review, Failed—that controls which actions may occur."
+    },
+    "explanation": {
+      "es": "Un modelo explícito de estados válidos y transiciones —por ejemplo Ready, In Progress, Review, Failed— que controla qué acciones pueden ocurrir.",
+      "en": "An explicit model of valid states and transitions—such as Ready, In Progress, Review, Failed—that controls which actions may occur."
+    }
+  },
+  {
+    "id": "AG-026",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Diseño de agentes",
+      "en": "Agent design"
+    },
+    "question": {
+      "es": "¿Por qué conviene separar planificación y ejecución?",
+      "en": "Why separate planning from execution?"
+    },
+    "answer": {
+      "es": "Permite inspeccionar y aprobar el plan antes de acciones costosas o riesgosas, y limita que una salida no validada se convierta directamente en cambios.",
+      "en": "It lets people inspect and approve a plan before costly or risky actions and prevents unvalidated output from directly becoming changes."
+    },
+    "explanation": {
+      "es": "Permite inspeccionar y aprobar el plan antes de acciones costosas o riesgosas, y limita que una salida no validada se convierta directamente en cambios.",
+      "en": "It lets people inspect and approve a plan before costly or risky actions and prevents unvalidated output from directly becoming changes."
+    }
+  },
+  {
+    "id": "AG-027",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Diseño de agentes",
+      "en": "Agent design"
+    },
+    "question": {
+      "es": "¿Qué debe contener un buen paquete de contexto para codificar?",
+      "en": "What should a good coding context package contain?"
+    },
+    "answer": {
+      "es": "Historia y criterios verificables, archivos relevantes, arquitectura y convenciones, restricciones, interfaces afectadas, pruebas y decisiones conocidas.",
+      "en": "The story and verifiable criteria, relevant files, architecture and conventions, constraints, affected interfaces, tests, and known decisions."
+    },
+    "explanation": {
+      "es": "Historia y criterios verificables, archivos relevantes, arquitectura y convenciones, restricciones, interfaces afectadas, pruebas y decisiones conocidas.",
+      "en": "The story and verifiable criteria, relevant files, architecture and conventions, constraints, affected interfaces, tests, and known decisions."
+    }
+  },
+  {
+    "id": "AG-028",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Contexto y recuperación",
+      "en": "Context and retrieval"
+    },
+    "question": {
+      "es": "¿Cómo limitarías el contexto recuperado para un ticket?",
+      "en": "How would you limit retrieved context for a ticket?"
+    },
+    "answer": {
+      "es": "Filtrando por repositorio, ruta, componente y actualidad; priorizando fuentes autorizadas y registrando referencias y versiones.",
+      "en": "Filter by repository, path, component, and recency; prioritize authoritative sources and record references and versions."
+    },
+    "explanation": {
+      "es": "Filtrando por repositorio, ruta, componente y actualidad; priorizando fuentes autorizadas y registrando referencias y versiones.",
+      "en": "Filter by repository, path, component, and recency; prioritize authoritative sources and record references and versions."
+    }
+  },
+  {
+    "id": "AG-029",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Contexto y recuperación",
+      "en": "Context and retrieval"
+    },
+    "question": {
+      "es": "¿Qué diferencia hay entre memoria de conversación y memoria de proyecto?",
+      "en": "What is the difference between conversation memory and project memory?"
+    },
+    "answer": {
+      "es": "La primera conserva el estado de una interacción; la segunda persiste conocimiento reutilizable del proyecto, con políticas de vigencia y acceso separadas.",
+      "en": "The first preserves an interaction's state; the second persists reusable project knowledge with separate freshness and access policies."
+    },
+    "explanation": {
+      "es": "La primera conserva el estado de una interacción; la segunda persiste conocimiento reutilizable del proyecto, con políticas de vigencia y acceso separadas.",
+      "en": "The first preserves an interaction's state; the second persists reusable project knowledge with separate freshness and access policies."
+    }
+  },
+  {
+    "id": "AG-030",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Contexto y recuperación",
+      "en": "Context and retrieval"
+    },
+    "question": {
+      "es": "¿Cómo verificarías que un resumen de ticket no perdió requisitos?",
+      "en": "How would you verify that a ticket summary did not lose requirements?"
+    },
+    "answer": {
+      "es": "Comparándolo contra criterios de aceptación y campos originales, conservando enlaces a fuentes y marcando explícitamente dudas o información ausente.",
+      "en": "Compare it against the original acceptance criteria and fields, preserve source links, and explicitly mark uncertainty or missing information."
+    },
+    "explanation": {
+      "es": "Comparándolo contra criterios de aceptación y campos originales, conservando enlaces a fuentes y marcando explícitamente dudas o información ausente.",
+      "en": "Compare it against the original acceptance criteria and fields, preserve source links, and explicitly mark uncertainty or missing information."
+    }
+  },
+  {
+    "id": "AG-031",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Jira y eventos",
+      "en": "Jira and events"
+    },
+    "question": {
+      "es": "¿Qué evento puede iniciar el pipeline propuesto?",
+      "en": "What event can start the proposed pipeline?"
+    },
+    "answer": {
+      "es": "Una transición de Jira a In Progress o un evento equivalente, validado contra el proyecto, issue type y condiciones de elegibilidad.",
+      "en": "A Jira transition to In Progress or equivalent event, validated against project, issue type, and eligibility conditions."
+    },
+    "explanation": {
+      "es": "Una transición de Jira a In Progress o un evento equivalente, validado contra el proyecto, issue type y condiciones de elegibilidad.",
+      "en": "A Jira transition to In Progress or equivalent event, validated against project, issue type, and eligibility conditions."
+    }
+  },
+  {
+    "id": "AG-032",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Jira y eventos",
+      "en": "Jira and events"
+    },
+    "question": {
+      "es": "¿Qué debe hacer el agente de contexto antes de codificar?",
+      "en": "What should the context agent do before coding?"
+    },
+    "answer": {
+      "es": "Leer la historia y documentación pertinente, detectar ambigüedad, producir un paquete de contexto con criterios comprobables y solicitar aclaración si falta información crítica.",
+      "en": "Read the story and relevant documentation, detect ambiguity, produce a context package with testable criteria, and request clarification if critical information is missing."
+    },
+    "explanation": {
+      "es": "Leer la historia y documentación pertinente, detectar ambigüedad, producir un paquete de contexto con criterios comprobables y solicitar aclaración si falta información crítica.",
+      "en": "Read the story and relevant documentation, detect ambiguity, produce a context package with testable criteria, and request clarification if critical information is missing."
+    }
+  },
+  {
+    "id": "AG-033",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Jira y eventos",
+      "en": "Jira and events"
+    },
+    "question": {
+      "es": "¿Qué papel podría tener Atlassian Rovo en el pipeline?",
+      "en": "What role could Atlassian Rovo play in the pipeline?"
+    },
+    "answer": {
+      "es": "Puede apoyar búsqueda y síntesis de conocimiento de Atlassian según las capacidades y permisos disponibles; las acciones de escritura/despliegue requieren controles explícitos.",
+      "en": "It can support search and synthesis of Atlassian knowledge according to available capabilities and permissions; write or deploy actions need explicit controls."
+    },
+    "explanation": {
+      "es": "Puede apoyar búsqueda y síntesis de conocimiento de Atlassian según las capacidades y permisos disponibles; las acciones de escritura/despliegue requieren controles explícitos.",
+      "en": "It can support search and synthesis of Atlassian knowledge according to available capabilities and permissions; write or deploy actions need explicit controls."
+    }
+  },
+  {
+    "id": "AG-034",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Jira y eventos",
+      "en": "Jira and events"
+    },
+    "question": {
+      "es": "¿Por qué no basta con confiar en una notificación de webhook de Jira?",
+      "en": "Why is trusting a Jira webhook notification not enough?"
+    },
+    "answer": {
+      "es": "Puede repetirse, llegar tarde o fallar; valida autenticidad, vuelve a consultar el estado actual y procesa idempotentemente.",
+      "en": "It can be duplicated, delayed, or fail; validate authenticity, re-fetch current state, and process idempotently."
+    },
+    "explanation": {
+      "es": "Puede repetirse, llegar tarde o fallar; valida autenticidad, vuelve a consultar el estado actual y procesa idempotentemente.",
+      "en": "It can be duplicated, delayed, or fail; validate authenticity, re-fetch current state, and process idempotently."
+    }
+  },
+  {
+    "id": "AG-035",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Jira y eventos",
+      "en": "Jira and events"
+    },
+    "question": {
+      "es": "¿Qué es idempotencia en un consumidor de eventos?",
+      "en": "What is idempotency in an event consumer?"
+    },
+    "answer": {
+      "es": "Procesar varias veces el mismo evento produce el mismo efecto que procesarlo una sola vez, normalmente usando una clave de deduplicación persistida.",
+      "en": "Processing the same event multiple times has the same effect as processing it once, typically using a persisted deduplication key."
+    },
+    "explanation": {
+      "es": "Procesar varias veces el mismo evento produce el mismo efecto que procesarlo una sola vez, normalmente usando una clave de deduplicación persistida.",
+      "en": "Processing the same event multiple times has the same effect as processing it once, typically using a persisted deduplication key."
+    }
+  },
+  {
+    "id": "AG-036",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Jira y eventos",
+      "en": "Jira and events"
+    },
+    "question": {
+      "es": "¿Cómo evitarías ejecutar dos pipelines para el mismo ticket?",
+      "en": "How would you prevent two pipelines from running for the same ticket?"
+    },
+    "answer": {
+      "es": "Usa una clave idempotente por issue y transición, un bloqueo o lease con vencimiento y una comprobación del estado antes de iniciar.",
+      "en": "Use an idempotency key per issue and transition, a lock or expiring lease, and a state check before starting."
+    },
+    "explanation": {
+      "es": "Usa una clave idempotente por issue y transición, un bloqueo o lease con vencimiento y una comprobación del estado antes de iniciar.",
+      "en": "Use an idempotency key per issue and transition, a lock or expiring lease, and a state check before starting."
+    }
+  },
+  {
+    "id": "AG-037",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Ejecución y estado",
+      "en": "Execution and state"
+    },
+    "question": {
+      "es": "¿Qué diferencia hay entre reintentar y reiniciar un workflow?",
+      "en": "What is the difference between retrying and restarting a workflow?"
+    },
+    "answer": {
+      "es": "Un reintento repite una operación fallida de forma controlada; reiniciar puede duplicar efectos. Ambos requieren estado, límites y seguridad idempotente.",
+      "en": "A retry repeats a failed operation in a controlled way; a restart may duplicate effects. Both require state, limits, and idempotency safety."
+    },
+    "explanation": {
+      "es": "Un reintento repite una operación fallida de forma controlada; reiniciar puede duplicar efectos. Ambos requieren estado, límites y seguridad idempotente.",
+      "en": "A retry repeats a failed operation in a controlled way; a restart may duplicate effects. Both require state, limits, and idempotency safety."
+    }
+  },
+  {
+    "id": "AG-038",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Ejecución y estado",
+      "en": "Execution and state"
+    },
+    "question": {
+      "es": "¿Qué es un checkpoint en un workflow?",
+      "en": "What is a checkpoint in a workflow?"
+    },
+    "answer": {
+      "es": "Un estado durable guardado en un límite seguro que permite reanudar, inspeccionar o recuperar el proceso sin repetir todos los pasos.",
+      "en": "A durable state saved at a safe boundary that allows the process to resume, inspect, or recover without repeating every step."
+    },
+    "explanation": {
+      "es": "Un estado durable guardado en un límite seguro que permite reanudar, inspeccionar o recuperar el proceso sin repetir todos los pasos.",
+      "en": "A durable state saved at a safe boundary that allows the process to resume, inspect, or recover without repeating every step."
+    }
+  },
+  {
+    "id": "AG-039",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Ejecución y estado",
+      "en": "Execution and state"
+    },
+    "question": {
+      "es": "¿Qué es un límite de iteraciones para un agente?",
+      "en": "What is an agent iteration limit?"
+    },
+    "answer": {
+      "es": "Un máximo de pasos o tiempo que impide ciclos interminables y acota costo; al alcanzarse debe producir un estado recuperable o pedir intervención.",
+      "en": "A maximum number of steps or duration that prevents endless loops and bounds cost; on reaching it, the agent should return a recoverable state or ask for intervention."
+    },
+    "explanation": {
+      "es": "Un máximo de pasos o tiempo que impide ciclos interminables y acota costo; al alcanzarse debe producir un estado recuperable o pedir intervención.",
+      "en": "A maximum number of steps or duration that prevents endless loops and bounds cost; on reaching it, the agent should return a recoverable state or ask for intervention."
+    }
+  },
+  {
+    "id": "AG-040",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Ejecución y estado",
+      "en": "Execution and state"
+    },
+    "question": {
+      "es": "¿Cómo pueden trabajar en paralelo los agentes de código y pruebas?",
+      "en": "How can coding and test agents work in parallel?"
+    },
+    "answer": {
+      "es": "El agente de pruebas puede derivar casos de criterios y contratos mientras el agente de código implementa; ambos trabajan en ramas o espacios aislados y sincronizan antes de ejecutar la suite final.",
+      "en": "The test agent can derive cases from criteria and contracts while the coding agent implements; both work in isolated branches or workspaces and synchronize before the final suite."
+    },
+    "explanation": {
+      "es": "El agente de pruebas puede derivar casos de criterios y contratos mientras el agente de código implementa; ambos trabajan en ramas o espacios aislados y sincronizan antes de ejecutar la suite final.",
+      "en": "The test agent can derive cases from criteria and contracts while the coding agent implements; both work in isolated branches or workspaces and synchronize before the final suite."
+    }
+  },
+  {
+    "id": "AG-041",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Ejecución y estado",
+      "en": "Execution and state"
+    },
+    "question": {
+      "es": "¿Por qué no debería el agente de pruebas editar los mismos archivos del agente de código?",
+      "en": "Why should the test agent not edit the same files as the coding agent?"
+    },
+    "answer": {
+      "es": "La escritura simultánea genera conflictos y resultados no deterministas; define propiedad de archivos, interfaces y una fase de integración.",
+      "en": "Concurrent writes cause conflicts and nondeterministic results; define file ownership, interfaces, and an integration phase."
+    },
+    "explanation": {
+      "es": "La escritura simultánea genera conflictos y resultados no deterministas; define propiedad de archivos, interfaces y una fase de integración.",
+      "en": "Concurrent writes cause conflicts and nondeterministic results; define file ownership, interfaces, and an integration phase."
+    }
+  },
+  {
+    "id": "AG-042",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Pruebas de software",
+      "en": "Software testing"
+    },
+    "question": {
+      "es": "¿Qué diferencia una prueba unitaria de una de integración?",
+      "en": "What distinguishes a unit test from an integration test?"
+    },
+    "answer": {
+      "es": "La unitaria aísla una unidad con dependencias sustituidas; la de integración comprueba colaboraciones reales entre componentes o sistemas.",
+      "en": "A unit test isolates a unit with replaced dependencies; an integration test checks real collaboration between components or systems."
+    },
+    "explanation": {
+      "es": "La unitaria aísla una unidad con dependencias sustituidas; la de integración comprueba colaboraciones reales entre componentes o sistemas.",
+      "en": "A unit test isolates a unit with replaced dependencies; an integration test checks real collaboration between components or systems."
+    }
+  },
+  {
+    "id": "AG-043",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Pruebas de software",
+      "en": "Software testing"
+    },
+    "question": {
+      "es": "¿Qué valida una prueba funcional?",
+      "en": "What does a functional test validate?"
+    },
+    "answer": {
+      "es": "Que un comportamiento del sistema cumpla requisitos o criterios de aceptación desde una perspectiva observable, a menudo a través de interfaces representativas.",
+      "en": "That system behavior meets requirements or acceptance criteria from an observable perspective, often through representative interfaces."
+    },
+    "explanation": {
+      "es": "Que un comportamiento del sistema cumpla requisitos o criterios de aceptación desde una perspectiva observable, a menudo a través de interfaces representativas.",
+      "en": "That system behavior meets requirements or acceptance criteria from an observable perspective, often through representative interfaces."
+    }
+  },
+  {
+    "id": "AG-044",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Pruebas de software",
+      "en": "Software testing"
+    },
+    "question": {
+      "es": "¿Qué son pruebas basadas en criterios de aceptación?",
+      "en": "What are acceptance-criteria-based tests?"
+    },
+    "answer": {
+      "es": "Casos trazables a cada condición de la historia, con entradas, acción y resultado esperado, incluidos casos negativos relevantes.",
+      "en": "Cases traceable to each story condition, with inputs, action, and expected result, including relevant negative cases."
+    },
+    "explanation": {
+      "es": "Casos trazables a cada condición de la historia, con entradas, acción y resultado esperado, incluidos casos negativos relevantes.",
+      "en": "Cases traceable to each story condition, with inputs, action, and expected result, including relevant negative cases."
+    }
+  },
+  {
+    "id": "AG-045",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Pruebas de software",
+      "en": "Software testing"
+    },
+    "question": {
+      "es": "¿Qué debe entregar un agente de pruebas además del código de pruebas?",
+      "en": "What should a test agent deliver besides test code?"
+    },
+    "answer": {
+      "es": "Mapa de trazabilidad a criterios, comandos ejecutados, resultados, cobertura significativa y limitaciones o casos no ejecutables.",
+      "en": "A traceability map to criteria, commands run, results, meaningful coverage, and limitations or cases that could not run."
+    },
+    "explanation": {
+      "es": "Mapa de trazabilidad a criterios, comandos ejecutados, resultados, cobertura significativa y limitaciones o casos no ejecutables.",
+      "en": "A traceability map to criteria, commands run, results, meaningful coverage, and limitations or cases that could not run."
+    }
+  },
+  {
+    "id": "AG-046",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Pruebas de software",
+      "en": "Software testing"
+    },
+    "question": {
+      "es": "¿Cómo evitar que las pruebas generadas solo confirmen la implementación actual?",
+      "en": "How do you prevent generated tests from only confirming the current implementation?"
+    },
+    "answer": {
+      "es": "Deriva oráculos de requisitos independientes, diseña casos límite y negativos, y revisa mutaciones o ejemplos que deberían fallar.",
+      "en": "Derive oracles independently from requirements, design boundary and negative cases, and review mutations or examples that should fail."
+    },
+    "explanation": {
+      "es": "Deriva oráculos de requisitos independientes, diseña casos límite y negativos, y revisa mutaciones o ejemplos que deberían fallar.",
+      "en": "Derive oracles independently from requirements, design boundary and negative cases, and review mutations or examples that should fail."
+    }
+  },
+  {
+    "id": "AG-047",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Pruebas de software",
+      "en": "Software testing"
+    },
+    "question": {
+      "es": "¿Qué hacer si el agente de pruebas detecta una regresión antes de terminar el agente de código?",
+      "en": "What should happen if the test agent finds a regression before the coding agent finishes?"
+    },
+    "answer": {
+      "es": "Reportar hallazgo con evidencia al agente de código, conservar un caso reproducible y volver a ejecutar pruebas cuando haya un cambio relevante.",
+      "en": "Report the finding with evidence to the coding agent, preserve a reproducible case, and rerun tests after a relevant change."
+    },
+    "explanation": {
+      "es": "Reportar hallazgo con evidencia al agente de código, conservar un caso reproducible y volver a ejecutar pruebas cuando haya un cambio relevante.",
+      "en": "Report the finding with evidence to the coding agent, preserve a reproducible case, and rerun tests after a relevant change."
+    }
+  },
+  {
+    "id": "AG-048",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Revisión y entrega",
+      "en": "Review and delivery"
+    },
+    "question": {
+      "es": "¿Qué debe revisar un agente de code review?",
+      "en": "What should a code-review agent inspect?"
+    },
+    "answer": {
+      "es": "Correctitud contra criterios, regresiones, seguridad, manejo de errores, mantenibilidad y pruebas; debe señalar archivo/línea y evidencia, no solo aprobar por estilo.",
+      "en": "Correctness against criteria, regressions, security, error handling, maintainability, and tests; it should cite file/line and evidence, not approve based only on style."
+    },
+    "explanation": {
+      "es": "Correctitud contra criterios, regresiones, seguridad, manejo de errores, mantenibilidad y pruebas; debe señalar archivo/línea y evidencia, no solo aprobar por estilo.",
+      "en": "Correctness against criteria, regressions, security, error handling, maintainability, and tests; it should cite file/line and evidence, not approve based only on style."
+    }
+  },
+  {
+    "id": "AG-049",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Revisión y entrega",
+      "en": "Review and delivery"
+    },
+    "question": {
+      "es": "¿Cómo debe tratar el pipeline una revisión con hallazgos críticos?",
+      "en": "How should the pipeline handle a review with critical findings?"
+    },
+    "answer": {
+      "es": "Bloquear la transición o merge, devolver hallazgos accionables al agente de código y exigir revisión posterior con evidencia de corrección.",
+      "en": "Block the transition or merge, return actionable findings to the coding agent, and require a follow-up review with correction evidence."
+    },
+    "explanation": {
+      "es": "Bloquear la transición o merge, devolver hallazgos accionables al agente de código y exigir revisión posterior con evidencia de corrección.",
+      "en": "Block the transition or merge, return actionable findings to the coding agent, and require a follow-up review with correction evidence."
+    }
+  },
+  {
+    "id": "AG-050",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Revisión y entrega",
+      "en": "Review and delivery"
+    },
+    "question": {
+      "es": "¿Qué hace CI en un pipeline de ingeniería?",
+      "en": "What does CI do in an engineering pipeline?"
+    },
+    "answer": {
+      "es": "Integra cambios y ejecuta verificaciones automatizadas como lint, compilación, pruebas y análisis de seguridad antes de aceptar el cambio.",
+      "en": "It integrates changes and runs automated checks such as lint, build, tests, and security analysis before accepting the change."
+    },
+    "explanation": {
+      "es": "Integra cambios y ejecuta verificaciones automatizadas como lint, compilación, pruebas y análisis de seguridad antes de aceptar el cambio.",
+      "en": "It integrates changes and runs automated checks such as lint, build, tests, and security analysis before accepting the change."
+    }
+  },
+  {
+    "id": "AG-051",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Revisión y entrega",
+      "en": "Review and delivery"
+    },
+    "question": {
+      "es": "¿Qué diferencia hay entre entrega continua y despliegue continuo?",
+      "en": "What is the difference between continuous delivery and continuous deployment?"
+    },
+    "answer": {
+      "es": "La entrega continua deja una versión validada lista para liberar con aprobación; el despliegue continuo publica automáticamente si se satisfacen las puertas de calidad.",
+      "en": "Continuous delivery keeps a validated release ready for approval; continuous deployment releases automatically when quality gates pass."
+    },
+    "explanation": {
+      "es": "La entrega continua deja una versión validada lista para liberar con aprobación; el despliegue continuo publica automáticamente si se satisfacen las puertas de calidad.",
+      "en": "Continuous delivery keeps a validated release ready for approval; continuous deployment releases automatically when quality gates pass."
+    }
+  },
+  {
+    "id": "AG-052",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Revisión y entrega",
+      "en": "Review and delivery"
+    },
+    "question": {
+      "es": "¿Qué significa una puerta de calidad en CI/CD?",
+      "en": "What is a quality gate in CI/CD?"
+    },
+    "answer": {
+      "es": "Una condición automática —por ejemplo, pruebas requeridas aprobadas y cero vulnerabilidades críticas— que debe cumplirse antes de avanzar.",
+      "en": "An automated condition—such as required tests passing and no critical vulnerabilities—that must be met before proceeding."
+    },
+    "explanation": {
+      "es": "Una condición automática —por ejemplo, pruebas requeridas aprobadas y cero vulnerabilidades críticas— que debe cumplirse antes de avanzar.",
+      "en": "An automated condition—such as required tests passing and no critical vulnerabilities—that must be met before proceeding."
+    }
+  },
+  {
+    "id": "AG-053",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Revisión y entrega",
+      "en": "Review and delivery"
+    },
+    "question": {
+      "es": "¿Por qué el code review no debe ser la única puerta antes del despliegue?",
+      "en": "Why should code review not be the only gate before deployment?"
+    },
+    "answer": {
+      "es": "La revisión puede omitir fallos reproducibles; se complementa con pruebas, análisis estático, controles de dependencias y aprobación para entornos de riesgo.",
+      "en": "Review can miss reproducible failures; it should be combined with tests, static analysis, dependency controls, and approval for risky environments."
+    },
+    "explanation": {
+      "es": "La revisión puede omitir fallos reproducibles; se complementa con pruebas, análisis estático, controles de dependencias y aprobación para entornos de riesgo.",
+      "en": "Review can miss reproducible failures; it should be combined with tests, static analysis, dependency controls, and approval for risky environments."
+    }
+  },
+  {
+    "id": "AG-054",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Integración",
+      "en": "Integration"
+    },
+    "question": {
+      "es": "¿Qué es MCP y cómo ayuda en un sistema de agentes?",
+      "en": "What is MCP and how can it help an agent system?"
+    },
+    "answer": {
+      "es": "Model Context Protocol define una forma interoperable de exponer herramientas y recursos a modelos; cada servidor MCP debe tratarse como una frontera de confianza.",
+      "en": "Model Context Protocol defines an interoperable way to expose tools and resources to models; each MCP server should be treated as a trust boundary."
+    },
+    "explanation": {
+      "es": "Model Context Protocol define una forma interoperable de exponer herramientas y recursos a modelos; cada servidor MCP debe tratarse como una frontera de confianza.",
+      "en": "Model Context Protocol defines an interoperable way to expose tools and resources to models; each MCP server should be treated as a trust boundary."
+    }
+  },
+  {
+    "id": "AG-055",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Integración",
+      "en": "Integration"
+    },
+    "question": {
+      "es": "¿Qué significa A2A en sistemas de agentes?",
+      "en": "What does A2A mean in agent systems?"
+    },
+    "answer": {
+      "es": "Agent-to-Agent describe patrones o protocolos de comunicación y delegación entre agentes; no reemplaza contratos, autorización ni validación.",
+      "en": "Agent-to-Agent describes patterns or protocols for communication and delegation between agents; it does not replace contracts, authorization, or validation."
+    },
+    "explanation": {
+      "es": "Agent-to-Agent describe patrones o protocolos de comunicación y delegación entre agentes; no reemplaza contratos, autorización ni validación.",
+      "en": "Agent-to-Agent describes patterns or protocols for communication and delegation between agents; it does not replace contracts, authorization, or validation."
+    }
+  },
+  {
+    "id": "AG-056",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Evaluación y observabilidad",
+      "en": "Evaluation and observability"
+    },
+    "question": {
+      "es": "¿Qué es una traza distribuida de un pipeline multiagente?",
+      "en": "What is a distributed trace for a multi-agent pipeline?"
+    },
+    "answer": {
+      "es": "Un registro correlacionado del recorrido de un ticket por eventos, agentes, herramientas, llamadas, pruebas y decisiones, con tiempos y resultados.",
+      "en": "A correlated record of a ticket's path through events, agents, tools, calls, tests, and decisions, with timing and outcomes."
+    },
+    "explanation": {
+      "es": "Un registro correlacionado del recorrido de un ticket por eventos, agentes, herramientas, llamadas, pruebas y decisiones, con tiempos y resultados.",
+      "en": "A correlated record of a ticket's path through events, agents, tools, calls, tests, and decisions, with timing and outcomes."
+    }
+  },
+  {
+    "id": "AG-057",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Evaluación y observabilidad",
+      "en": "Evaluation and observability"
+    },
+    "question": {
+      "es": "¿Qué métricas medirías para un pipeline de agentes?",
+      "en": "What metrics would you measure for an agent pipeline?"
+    },
+    "answer": {
+      "es": "Tasa de éxito por etapa, tiempo de ciclo, reintentos, fallos, hallazgos aceptados, defectos escapados, costo/token y frecuencia de aprobación humana.",
+      "en": "Stage success rate, cycle time, retries, failures, accepted findings, escaped defects, cost/tokens, and human-approval frequency."
+    },
+    "explanation": {
+      "es": "Tasa de éxito por etapa, tiempo de ciclo, reintentos, fallos, hallazgos aceptados, defectos escapados, costo/token y frecuencia de aprobación humana.",
+      "en": "Stage success rate, cycle time, retries, failures, accepted findings, escaped defects, cost/tokens, and human-approval frequency."
+    }
+  },
+  {
+    "id": "AG-058",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Evaluación y observabilidad",
+      "en": "Evaluation and observability"
+    },
+    "question": {
+      "es": "¿Por qué registrar las versiones de prompts y modelos?",
+      "en": "Why record prompt and model versions?"
+    },
+    "answer": {
+      "es": "Para reproducir decisiones, explicar cambios de comportamiento y comparar evaluaciones a través de despliegues.",
+      "en": "To reproduce decisions, explain behavior changes, and compare evaluations across deployments."
+    },
+    "explanation": {
+      "es": "Para reproducir decisiones, explicar cambios de comportamiento y comparar evaluaciones a través de despliegues.",
+      "en": "To reproduce decisions, explain behavior changes, and compare evaluations across deployments."
+    }
+  },
+  {
+    "id": "AG-059",
+    "level": {
+      "es": "Intermedio",
+      "en": "Intermediate"
+    },
+    "category": {
+      "es": "Evaluación y observabilidad",
+      "en": "Evaluation and observability"
+    },
+    "question": {
+      "es": "¿Qué es un conjunto de regresión de agentes?",
+      "en": "What is an agent regression set?"
+    },
+    "answer": {
+      "es": "Una colección versionada de casos representativos con resultados o criterios esperados que se vuelve a ejecutar al cambiar prompt, modelo, herramienta o workflow.",
+      "en": "A versioned collection of representative cases with expected outcomes or criteria, rerun when prompts, models, tools, or workflows change."
+    },
+    "explanation": {
+      "es": "Una colección versionada de casos representativos con resultados o criterios esperados que se vuelve a ejecutar al cambiar prompt, modelo, herramienta o workflow.",
+      "en": "A versioned collection of representative cases with expected outcomes or criteria, rerun when prompts, models, tools, or workflows change."
+    }
+  },
+  {
+    "id": "AG-060",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Cómo diseñarías el límite entre lógica determinista y decisiones del LLM?",
+      "en": "How would you design the boundary between deterministic logic and LLM decisions?"
+    },
+    "answer": {
+      "es": "Usa código y máquina de estados para permisos, transiciones, validación y efectos externos; reserva el LLM para clasificación o propuestas con salida estructurada y verificable.",
+      "en": "Use code and a state machine for permissions, transitions, validation, and external side effects; reserve the LLM for classification or proposals with structured, verifiable output."
+    },
+    "explanation": {
+      "es": "Usa código y máquina de estados para permisos, transiciones, validación y efectos externos; reserva el LLM para clasificación o propuestas con salida estructurada y verificable.",
+      "en": "Use code and a state machine for permissions, transitions, validation, and external side effects; reserve the LLM for classification or proposals with structured, verifiable output."
+    }
+  },
+  {
+    "id": "AG-061",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Cuándo elegirías un grafo durable frente a una cadena lineal de prompts?",
+      "en": "When would you choose a durable graph over a linear prompt chain?"
+    },
+    "answer": {
+      "es": "Cuando hay bifurcaciones, paralelismo, reintentos, estado persistente, pausas de aprobación o recuperación que deben ser observables y reproducibles.",
+      "en": "When branching, parallelism, retries, persistent state, approval pauses, or recovery must be observable and reproducible."
+    },
+    "explanation": {
+      "es": "Cuando hay bifurcaciones, paralelismo, reintentos, estado persistente, pausas de aprobación o recuperación que deben ser observables y reproducibles.",
+      "en": "When branching, parallelism, retries, persistent state, approval pauses, or recovery must be observable and reproducible."
+    }
+  },
+  {
+    "id": "AG-062",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Cómo modelarías el estado durable de una tarea de ingeniería?",
+      "en": "How would you model durable state for an engineering task?"
+    },
+    "answer": {
+      "es": "Persistiría ID de issue, versión de entrada, estado, artefactos/commit, decisiones, resultados de pruebas, aprobaciones, intentos y marcas de tiempo con transiciones auditables.",
+      "en": "Persist the issue ID, input version, state, artifacts/commit, decisions, test results, approvals, attempts, and timestamps with auditable transitions."
+    },
+    "explanation": {
+      "es": "Persistiría ID de issue, versión de entrada, estado, artefactos/commit, decisiones, resultados de pruebas, aprobaciones, intentos y marcas de tiempo con transiciones auditables.",
+      "en": "Persist the issue ID, input version, state, artifacts/commit, decisions, test results, approvals, attempts, and timestamps with auditable transitions."
+    }
+  },
+  {
+    "id": "AG-063",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Cómo evitar la condición de carrera entre transición de Jira y recepción del webhook?",
+      "en": "How do you avoid a race between a Jira transition and webhook delivery?"
+    },
+    "answer": {
+      "es": "Tras validar la firma, consulta Jira por el estado y versión actual; usa deduplicación y una transición condicional en vez de confiar en el orden de entrega.",
+      "en": "After validating the signature, query Jira for its current state and version; use deduplication and a conditional transition instead of trusting delivery order."
+    },
+    "explanation": {
+      "es": "Tras validar la firma, consulta Jira por el estado y versión actual; usa deduplicación y una transición condicional en vez de confiar en el orden de entrega.",
+      "en": "After validating the signature, query Jira for its current state and version; use deduplication and a conditional transition instead of trusting delivery order."
+    }
+  },
+  {
+    "id": "AG-064",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Qué estrategia usarías para eventos perdidos o duplicados?",
+      "en": "What strategy would you use for lost or duplicated events?"
+    },
+    "answer": {
+      "es": "Patrón inbox/outbox o cola durable, clave idempotente, reintento con backoff, cola de fallos y reconciliación periódica con el sistema fuente.",
+      "en": "A durable inbox/outbox or queue, idempotency key, backoff retries, dead-letter queue, and periodic reconciliation with the source system."
+    },
+    "explanation": {
+      "es": "Patrón inbox/outbox o cola durable, clave idempotente, reintento con backoff, cola de fallos y reconciliación periódica con el sistema fuente.",
+      "en": "A durable inbox/outbox or queue, idempotency key, backoff retries, dead-letter queue, and periodic reconciliation with the source system."
+    }
+  },
+  {
+    "id": "AG-065",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Cómo coordinar tareas paralelas sin perder consistencia?",
+      "en": "How do you coordinate parallel tasks without losing consistency?"
+    },
+    "answer": {
+      "es": "Define dependencias y contratos, fija una versión base, aísla escrituras, sincroniza resultados en puntos de unión y valida el conjunto integrado antes de avanzar.",
+      "en": "Define dependencies and contracts, pin a base version, isolate writes, synchronize results at join points, and validate the integrated whole before proceeding."
+    },
+    "explanation": {
+      "es": "Define dependencias y contratos, fija una versión base, aísla escrituras, sincroniza resultados en puntos de unión y valida el conjunto integrado antes de avanzar.",
+      "en": "Define dependencies and contracts, pin a base version, isolate writes, synchronize results at join points, and validate the integrated whole before proceeding."
+    }
+  },
+  {
+    "id": "AG-066",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Qué riesgo presenta un agente que modifica Jira y Git en la misma operación?",
+      "en": "What risk does an agent that modifies Jira and Git in one operation create?"
+    },
+    "answer": {
+      "es": "No hay transacción atómica entre sistemas; una operación puede completarse parcialmente. Se requieren pasos compensatorios, reconciliación y registro de efectos.",
+      "en": "There is no atomic transaction across systems; an operation can partially complete. Compensating steps, reconciliation, and effect logging are needed."
+    },
+    "explanation": {
+      "es": "No hay transacción atómica entre sistemas; una operación puede completarse parcialmente. Se requieren pasos compensatorios, reconciliación y registro de efectos.",
+      "en": "There is no atomic transaction across systems; an operation can partially complete. Compensating steps, reconciliation, and effect logging are needed."
+    }
+  },
+  {
+    "id": "AG-067",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Cómo manejarías una cancelación de ticket mientras corren agentes?",
+      "en": "How would you handle a ticket cancellation while agents are running?"
+    },
+    "answer": {
+      "es": "Propaga una señal de cancelación al workflow, detén nuevos efectos, cancela tareas cooperativamente, marca artefactos parciales y reconcilia el estado con Jira.",
+      "en": "Propagate a cancellation signal through the workflow, stop new side effects, cooperatively cancel tasks, mark partial artifacts, and reconcile Jira state."
+    },
+    "explanation": {
+      "es": "Propaga una señal de cancelación al workflow, detén nuevos efectos, cancela tareas cooperativamente, marca artefactos parciales y reconcilia el estado con Jira.",
+      "en": "Propagate a cancellation signal through the workflow, stop new side effects, cooperatively cancel tasks, mark partial artifacts, and reconcile Jira state."
+    }
+  },
+  {
+    "id": "AG-068",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Cómo establecerías límites de costo y latencia por ticket?",
+      "en": "How would you set per-ticket cost and latency limits?"
+    },
+    "answer": {
+      "es": "Presupuestos por etapa y ticket para tokens, llamadas y tiempo; alertas y corte al excederlos, con salida parcial y ruta de escalamiento.",
+      "en": "Per-stage and per-ticket budgets for tokens, calls, and time; alert and stop on overrun, with partial output and an escalation path."
+    },
+    "explanation": {
+      "es": "Presupuestos por etapa y ticket para tokens, llamadas y tiempo; alertas y corte al excederlos, con salida parcial y ruta de escalamiento.",
+      "en": "Per-stage and per-ticket budgets for tokens, calls, and time; alert and stop on overrun, with partial output and an escalation path."
+    }
+  },
+  {
+    "id": "AG-069",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Arquitectura de orquestación",
+      "en": "Orchestration architecture"
+    },
+    "question": {
+      "es": "¿Cómo elegirías un modelo de respaldo si falla el modelo principal?",
+      "en": "How would you choose a fallback model if the primary fails?"
+    },
+    "answer": {
+      "es": "Verifica compatibilidad de herramientas y calidad con evaluaciones, limita el fallback a fallos transitorios y registra el modelo usado; no cambies silenciosamente en pasos de alto riesgo.",
+      "en": "Verify tool compatibility and quality with evaluations, limit fallback to transient failures, and record the model used; do not silently switch for high-risk steps."
+    },
+    "explanation": {
+      "es": "Verifica compatibilidad de herramientas y calidad con evaluaciones, limita el fallback a fallos transitorios y registra el modelo usado; no cambies silenciosamente en pasos de alto riesgo.",
+      "en": "Verify tool compatibility and quality with evaluations, limit fallback to transient failures, and record the model used; do not silently switch for high-risk steps."
+    }
+  },
+  {
+    "id": "AG-070",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Seguridad de agentes",
+      "en": "Agent security"
+    },
+    "question": {
+      "es": "¿Qué es una inyección indirecta de prompt en un agente de codificación?",
+      "en": "What is indirect prompt injection in a coding agent?"
+    },
+    "answer": {
+      "es": "Instrucciones maliciosas ocultas en contenido recuperado —como un issue o README— que intentan cambiar el comportamiento del agente; el contenido externo debe tratarse como datos no confiables.",
+      "en": "Malicious instructions hidden in retrieved content—such as an issue or README—that try to change agent behavior; external content must be treated as untrusted data."
+    },
+    "explanation": {
+      "es": "Instrucciones maliciosas ocultas en contenido recuperado —como un issue o README— que intentan cambiar el comportamiento del agente; el contenido externo debe tratarse como datos no confiables.",
+      "en": "Malicious instructions hidden in retrieved content—such as an issue or README—that try to change agent behavior; external content must be treated as untrusted data."
+    }
+  },
+  {
+    "id": "AG-071",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Seguridad de agentes",
+      "en": "Agent security"
+    },
+    "question": {
+      "es": "¿Por qué las instrucciones del ticket no pueden otorgar permisos al agente?",
+      "en": "Why can't ticket instructions grant permissions to an agent?"
+    },
+    "answer": {
+      "es": "El ticket es entrada no confiable; los permisos se definen fuera del prompt por políticas de identidad, autorización y herramientas.",
+      "en": "The ticket is untrusted input; permissions are defined outside the prompt by identity, authorization, and tool policies."
+    },
+    "explanation": {
+      "es": "El ticket es entrada no confiable; los permisos se definen fuera del prompt por políticas de identidad, autorización y herramientas.",
+      "en": "The ticket is untrusted input; permissions are defined outside the prompt by identity, authorization, and tool policies."
+    }
+  },
+  {
+    "id": "AG-072",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Seguridad de agentes",
+      "en": "Agent security"
+    },
+    "question": {
+      "es": "¿Cómo reducirías el riesgo de exfiltración de secretos por un agente?",
+      "en": "How would you reduce an agent's risk of secret exfiltration?"
+    },
+    "answer": {
+      "es": "No expongas secretos en el contexto, usa credenciales de corta duración y alcance mínimo, redacta logs, limita salida de red y audita cada acceso.",
+      "en": "Keep secrets out of context, use short-lived least-scope credentials, redact logs, restrict outbound networking, and audit every access."
+    },
+    "explanation": {
+      "es": "No expongas secretos en el contexto, usa credenciales de corta duración y alcance mínimo, redacta logs, limita salida de red y audita cada acceso.",
+      "en": "Keep secrets out of context, use short-lived least-scope credentials, redact logs, restrict outbound networking, and audit every access."
+    }
+  },
+  {
+    "id": "AG-073",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Seguridad de agentes",
+      "en": "Agent security"
+    },
+    "question": {
+      "es": "¿Qué controles aplicarías al ejecutar código generado por un agente?",
+      "en": "What controls would you apply when running agent-generated code?"
+    },
+    "answer": {
+      "es": "Ejecución en sandbox efímero sin credenciales, red restringida, recursos limitados, dependencias controladas y destrucción del entorno al terminar.",
+      "en": "Run in an ephemeral sandbox without credentials, with restricted networking, resource limits, controlled dependencies, and environment teardown afterward."
+    },
+    "explanation": {
+      "es": "Ejecución en sandbox efímero sin credenciales, red restringida, recursos limitados, dependencias controladas y destrucción del entorno al terminar.",
+      "en": "Run in an ephemeral sandbox without credentials, with restricted networking, resource limits, controlled dependencies, and environment teardown afterward."
+    }
+  },
+  {
+    "id": "AG-074",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Seguridad de agentes",
+      "en": "Agent security"
+    },
+    "question": {
+      "es": "¿Qué debe cubrir el modelo de amenazas de un pipeline multiagente?",
+      "en": "What should a multi-agent pipeline threat model cover?"
+    },
+    "answer": {
+      "es": "Activos, identidades, fronteras de confianza, prompt injection, herramientas, cadena de suministro, secretos, abuso de permisos, resultados maliciosos y recuperación.",
+      "en": "Assets, identities, trust boundaries, prompt injection, tools, supply chain, secrets, permission abuse, malicious outputs, and recovery."
+    },
+    "explanation": {
+      "es": "Activos, identidades, fronteras de confianza, prompt injection, herramientas, cadena de suministro, secretos, abuso de permisos, resultados maliciosos y recuperación.",
+      "en": "Assets, identities, trust boundaries, prompt injection, tools, supply chain, secrets, permission abuse, malicious outputs, and recovery."
+    }
+  },
+  {
+    "id": "AG-075",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Seguridad de agentes",
+      "en": "Agent security"
+    },
+    "question": {
+      "es": "¿Cómo separarías los permisos de lectura y escritura del agente de contexto?",
+      "en": "How would you separate read and write permissions for the context agent?"
+    },
+    "answer": {
+      "es": "Dale acceso de solo lectura a Jira, repositorios y documentos; emite su propuesta como artefacto y deja las transiciones o comentarios a un actor controlado aparte.",
+      "en": "Give it read-only access to Jira, repositories, and documents; emit its proposal as an artifact and leave transitions or comments to a separate controlled actor."
+    },
+    "explanation": {
+      "es": "Dale acceso de solo lectura a Jira, repositorios y documentos; emite su propuesta como artefacto y deja las transiciones o comentarios a un actor controlado aparte.",
+      "en": "Give it read-only access to Jira, repositories, and documents; emit its proposal as an artifact and leave transitions or comments to a separate controlled actor."
+    }
+  },
+  {
+    "id": "AG-076",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Seguridad de agentes",
+      "en": "Agent security"
+    },
+    "question": {
+      "es": "¿Qué significa aprobación humana basada en riesgo?",
+      "en": "What does risk-based human approval mean?"
+    },
+    "answer": {
+      "es": "Exigir aprobación para acciones de alto impacto —como merge, acceso a producción o cambios de datos— y permitir automatización de bajo riesgo bajo políticas comprobables.",
+      "en": "Require approval for high-impact actions—such as merge, production access, or data changes—while allowing low-risk automation under verifiable policies."
+    },
+    "explanation": {
+      "es": "Exigir aprobación para acciones de alto impacto —como merge, acceso a producción o cambios de datos— y permitir automatización de bajo riesgo bajo políticas comprobables.",
+      "en": "Require approval for high-impact actions—such as merge, production access, or data changes—while allowing low-risk automation under verifiable policies."
+    }
+  },
+  {
+    "id": "AG-077",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Seguridad de agentes",
+      "en": "Agent security"
+    },
+    "question": {
+      "es": "¿Qué evidencia debe quedar antes de permitir un despliegue?",
+      "en": "What evidence should exist before allowing a deployment?"
+    },
+    "answer": {
+      "es": "Commit revisado, resultados de CI, pruebas vinculadas a requisitos, escaneos, artefacto identificado, aprobaciones requeridas y registro de quién o qué autorizó.",
+      "en": "Reviewed commit, CI results, requirement-linked tests, scans, identified artifact, required approvals, and a record of who or what authorized it."
+    },
+    "explanation": {
+      "es": "Commit revisado, resultados de CI, pruebas vinculadas a requisitos, escaneos, artefacto identificado, aprobaciones requeridas y registro de quién o qué autorizó.",
+      "en": "Reviewed commit, CI results, requirement-linked tests, scans, identified artifact, required approvals, and a record of who or what authorized it."
+    }
+  },
+  {
+    "id": "AG-078",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Pruebas y calidad",
+      "en": "Testing and quality"
+    },
+    "question": {
+      "es": "¿Cómo pruebas un agente cuya salida es no determinista?",
+      "en": "How do you test an agent with nondeterministic output?"
+    },
+    "answer": {
+      "es": "Usa conjuntos de evaluación con rúbricas o aserciones invariantes, repeticiones para estimar variabilidad y pruebas de seguridad; no compares solo cadenas exactas.",
+      "en": "Use evaluation sets with rubrics or invariant assertions, repeated runs to estimate variance, and safety tests; do not rely only on exact string comparisons."
+    },
+    "explanation": {
+      "es": "Usa conjuntos de evaluación con rúbricas o aserciones invariantes, repeticiones para estimar variabilidad y pruebas de seguridad; no compares solo cadenas exactas.",
+      "en": "Use evaluation sets with rubrics or invariant assertions, repeated runs to estimate variance, and safety tests; do not rely only on exact string comparisons."
+    }
+  },
+  {
+    "id": "AG-079",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Pruebas y calidad",
+      "en": "Testing and quality"
+    },
+    "question": {
+      "es": "¿Qué es una prueba de contrato entre agentes?",
+      "en": "What is a contract test between agents?"
+    },
+    "answer": {
+      "es": "Verifica que las salidas de un agente cumplan el esquema y semántica esperados por el siguiente, incluyendo errores, campos ausentes y versiones incompatibles.",
+      "en": "It verifies that one agent's outputs meet the next agent's expected schema and semantics, including errors, missing fields, and incompatible versions."
+    },
+    "explanation": {
+      "es": "Verifica que las salidas de un agente cumplan el esquema y semántica esperados por el siguiente, incluyendo errores, campos ausentes y versiones incompatibles.",
+      "en": "It verifies that one agent's outputs meet the next agent's expected schema and semantics, including errors, missing fields, and incompatible versions."
+    }
+  },
+  {
+    "id": "AG-080",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Pruebas y calidad",
+      "en": "Testing and quality"
+    },
+    "question": {
+      "es": "¿Qué aporta el testing basado en propiedades a herramientas de agentes?",
+      "en": "What does property-based testing add for agent tools?"
+    },
+    "answer": {
+      "es": "Genera muchas entradas y verifica invariantes —por ejemplo, validación de rutas o idempotencia— para descubrir casos límite no escritos a mano.",
+      "en": "It generates many inputs and checks invariants—such as path validation or idempotency—to uncover edge cases not written by hand."
+    },
+    "explanation": {
+      "es": "Genera muchas entradas y verifica invariantes —por ejemplo, validación de rutas o idempotencia— para descubrir casos límite no escritos a mano.",
+      "en": "It generates many inputs and checks invariants—such as path validation or idempotency—to uncover edge cases not written by hand."
+    }
+  },
+  {
+    "id": "AG-081",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Pruebas y calidad",
+      "en": "Testing and quality"
+    },
+    "question": {
+      "es": "¿Cómo evitar fuga de datos entre tickets al reutilizar memoria?",
+      "en": "How do you prevent data leakage between tickets when reusing memory?"
+    },
+    "answer": {
+      "es": "Aísla la memoria por tenant/proyecto y permisos, filtra cada recuperación por ACL y evita incorporar datos sensibles de una tarea a otra.",
+      "en": "Isolate memory by tenant/project and permissions, filter every retrieval by ACL, and prevent sensitive data from one task entering another."
+    },
+    "explanation": {
+      "es": "Aísla la memoria por tenant/proyecto y permisos, filtra cada recuperación por ACL y evita incorporar datos sensibles de una tarea a otra.",
+      "en": "Isolate memory by tenant/project and permissions, filter every retrieval by ACL, and prevent sensitive data from one task entering another."
+    }
+  },
+  {
+    "id": "AG-082",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Pruebas y calidad",
+      "en": "Testing and quality"
+    },
+    "question": {
+      "es": "¿Qué es una métrica de defectos escapados y por qué importa?",
+      "en": "What is an escaped-defect metric and why does it matter?"
+    },
+    "answer": {
+      "es": "Cuenta defectos detectados después de la puerta prevista; revela si las pruebas, revisión o evaluación del agente realmente previenen fallos en producción.",
+      "en": "It counts defects found after the intended gate; it shows whether agent evaluation, tests, or review actually prevent production failures."
+    },
+    "explanation": {
+      "es": "Cuenta defectos detectados después de la puerta prevista; revela si las pruebas, revisión o evaluación del agente realmente previenen fallos en producción.",
+      "en": "It counts defects found after the intended gate; it shows whether agent evaluation, tests, or review actually prevent production failures."
+    }
+  },
+  {
+    "id": "AG-083",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Pruebas y calidad",
+      "en": "Testing and quality"
+    },
+    "question": {
+      "es": "¿Cómo distinguirías una evaluación de modelo de una prueba de software convencional?",
+      "en": "How would you distinguish a model evaluation from a conventional software test?"
+    },
+    "answer": {
+      "es": "La prueba convencional suele verificar comportamiento determinista de código; la evaluación de modelo mide calidad probabilística según rúbricas, distribución de casos y umbrales de aceptación.",
+      "en": "A conventional test often checks deterministic code behavior; a model evaluation measures probabilistic quality using rubrics, case distributions, and acceptance thresholds."
+    },
+    "explanation": {
+      "es": "La prueba convencional suele verificar comportamiento determinista de código; la evaluación de modelo mide calidad probabilística según rúbricas, distribución de casos y umbrales de aceptación.",
+      "en": "A conventional test often checks deterministic code behavior; a model evaluation measures probabilistic quality using rubrics, case distributions, and acceptance thresholds."
+    }
+  },
+  {
+    "id": "AG-084",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Pruebas y calidad",
+      "en": "Testing and quality"
+    },
+    "question": {
+      "es": "¿Cuándo usarías pruebas de mutación en las pruebas generadas?",
+      "en": "When would you use mutation testing for generated tests?"
+    },
+    "answer": {
+      "es": "Para comprobar si la suite detecta cambios erróneos intencionales; si los mutantes sobreviven, las aserciones pueden ser débiles o no reflejar requisitos.",
+      "en": "To check whether the suite catches intentional faulty changes; surviving mutants may indicate weak assertions or tests disconnected from requirements."
+    },
+    "explanation": {
+      "es": "Para comprobar si la suite detecta cambios erróneos intencionales; si los mutantes sobreviven, las aserciones pueden ser débiles o no reflejar requisitos.",
+      "en": "To check whether the suite catches intentional faulty changes; surviving mutants may indicate weak assertions or tests disconnected from requirements."
+    }
+  },
+  {
+    "id": "AG-085",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Pruebas y calidad",
+      "en": "Testing and quality"
+    },
+    "question": {
+      "es": "¿Cómo establecerías un criterio de salida para el agente de pruebas?",
+      "en": "How would you define an exit criterion for the test agent?"
+    },
+    "answer": {
+      "es": "Todos los criterios trazables cubiertos o marcados como bloqueados, comandos ejecutados reportados, fallos clasificados y sin fallos críticos sin resolver.",
+      "en": "All criteria traced as covered or blocked, commands reported, failures classified, and no unresolved critical failures."
+    },
+    "explanation": {
+      "es": "Todos los criterios trazables cubiertos o marcados como bloqueados, comandos ejecutados reportados, fallos clasificados y sin fallos críticos sin resolver.",
+      "en": "All criteria traced as covered or blocked, commands reported, failures classified, and no unresolved critical failures."
+    }
+  },
+  {
+    "id": "AG-086",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Confiabilidad y distribución",
+      "en": "Reliability and distribution"
+    },
+    "question": {
+      "es": "¿Qué hace una cola de fallos (dead-letter queue) en este pipeline?",
+      "en": "What does a dead-letter queue do in this pipeline?"
+    },
+    "answer": {
+      "es": "Aísla eventos que agotaron reintentos para inspección y reproceso controlado sin bloquear el resto del flujo.",
+      "en": "It isolates events that exhausted retries for inspection and controlled replay without blocking the rest of the workflow."
+    },
+    "explanation": {
+      "es": "Aísla eventos que agotaron reintentos para inspección y reproceso controlado sin bloquear el resto del flujo.",
+      "en": "It isolates events that exhausted retries for inspection and controlled replay without blocking the rest of the workflow."
+    }
+  },
+  {
+    "id": "AG-087",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Confiabilidad y distribución",
+      "en": "Reliability and distribution"
+    },
+    "question": {
+      "es": "¿Por qué usar backoff exponencial con jitter?",
+      "en": "Why use exponential backoff with jitter?"
+    },
+    "answer": {
+      "es": "Espacia reintentos aumentando el intervalo y agrega variación para evitar que muchos workers reintenten juntos y sobrecarguen un servicio recuperándose.",
+      "en": "It spaces retries with increasing intervals and adds randomness so many workers do not retry together and overload a recovering service."
+    },
+    "explanation": {
+      "es": "Espacia reintentos aumentando el intervalo y agrega variación para evitar que muchos workers reintenten juntos y sobrecarguen un servicio recuperándose.",
+      "en": "It spaces retries with increasing intervals and adds randomness so many workers do not retry together and overload a recovering service."
+    }
+  },
+  {
+    "id": "AG-088",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Confiabilidad y distribución",
+      "en": "Reliability and distribution"
+    },
+    "question": {
+      "es": "¿Qué es un patrón saga aplicado a Jira, Git y CI?",
+      "en": "What is a saga pattern applied to Jira, Git, and CI?"
+    },
+    "answer": {
+      "es": "Una secuencia de efectos locales con pasos compensatorios o reconciliación, porque no existe una transacción única que abarque los tres sistemas.",
+      "en": "A sequence of local effects with compensating steps or reconciliation, because no single transaction spans all three systems."
+    },
+    "explanation": {
+      "es": "Una secuencia de efectos locales con pasos compensatorios o reconciliación, porque no existe una transacción única que abarque los tres sistemas.",
+      "en": "A sequence of local effects with compensating steps or reconciliation, because no single transaction spans all three systems."
+    }
+  },
+  {
+    "id": "AG-089",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Confiabilidad y distribución",
+      "en": "Reliability and distribution"
+    },
+    "question": {
+      "es": "¿Cómo asegurarías orden por ticket sin serializar todos los tickets?",
+      "en": "How would you ensure per-ticket ordering without serializing every ticket?"
+    },
+    "answer": {
+      "es": "Particiona o bloquea por issue ID, manteniendo orden dentro de cada issue mientras tickets independientes se procesan en paralelo.",
+      "en": "Partition or lock by issue ID, preserving order within each issue while independent tickets run in parallel."
+    },
+    "explanation": {
+      "es": "Particiona o bloquea por issue ID, manteniendo orden dentro de cada issue mientras tickets independientes se procesan en paralelo.",
+      "en": "Partition or lock by issue ID, preserving order within each issue while independent tickets run in parallel."
+    }
+  },
+  {
+    "id": "AG-090",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Confiabilidad y distribución",
+      "en": "Reliability and distribution"
+    },
+    "question": {
+      "es": "¿Qué es backpressure en un sistema de agentes?",
+      "en": "What is backpressure in an agent system?"
+    },
+    "answer": {
+      "es": "Un mecanismo para limitar o ralentizar la admisión cuando etapas posteriores están saturadas, evitando acumulación ilimitada y degradación en cascada.",
+      "en": "A mechanism to limit or slow intake when downstream stages are saturated, preventing unbounded queues and cascading degradation."
+    },
+    "explanation": {
+      "es": "Un mecanismo para limitar o ralentizar la admisión cuando etapas posteriores están saturadas, evitando acumulación ilimitada y degradación en cascada.",
+      "en": "A mechanism to limit or slow intake when downstream stages are saturated, preventing unbounded queues and cascading degradation."
+    }
+  },
+  {
+    "id": "AG-091",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Confiabilidad y distribución",
+      "en": "Reliability and distribution"
+    },
+    "question": {
+      "es": "¿Cómo manejarías una caída temporal del proveedor de modelos?",
+      "en": "How would you handle a temporary model-provider outage?"
+    },
+    "answer": {
+      "es": "Aplica timeout y circuit breaker, reintento limitado con backoff, fallback previamente evaluado o pausa durable con alerta; evita repetir efectos externos.",
+      "en": "Apply timeouts and a circuit breaker, bounded backoff retries, a pre-evaluated fallback, or a durable pause with alerting; avoid repeating external side effects."
+    },
+    "explanation": {
+      "es": "Aplica timeout y circuit breaker, reintento limitado con backoff, fallback previamente evaluado o pausa durable con alerta; evita repetir efectos externos.",
+      "en": "Apply timeouts and a circuit breaker, bounded backoff retries, a pre-evaluated fallback, or a durable pause with alerting; avoid repeating external side effects."
+    }
+  },
+  {
+    "id": "AG-092",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Confiabilidad y distribución",
+      "en": "Reliability and distribution"
+    },
+    "question": {
+      "es": "¿Cómo evitar que un agente mantenga un bloqueo de ticket indefinidamente?",
+      "en": "How do you prevent an agent from holding a ticket lock indefinitely?"
+    },
+    "answer": {
+      "es": "Usa leases con expiración, renovación condicionada al estado del workflow y recuperación de tareas huérfanas.",
+      "en": "Use expiring leases, renew them only while workflow state permits, and recover orphaned tasks."
+    },
+    "explanation": {
+      "es": "Usa leases con expiración, renovación condicionada al estado del workflow y recuperación de tareas huérfanas.",
+      "en": "Use expiring leases, renew them only while workflow state permits, and recover orphaned tasks."
+    }
+  },
+  {
+    "id": "AG-093",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Confiabilidad y distribución",
+      "en": "Reliability and distribution"
+    },
+    "question": {
+      "es": "¿Qué indicadores usarías para definir un SLO del pipeline?",
+      "en": "What indicators would you use to define a pipeline SLO?"
+    },
+    "answer": {
+      "es": "Porcentaje de tickets elegibles completados dentro de un tiempo objetivo, tasa de éxito seguro por etapa y disponibilidad de las puertas críticas, medidos sobre una ventana definida.",
+      "en": "The share of eligible tickets completed within a target time, safe per-stage success rate, and availability of critical gates over a defined window."
+    },
+    "explanation": {
+      "es": "Porcentaje de tickets elegibles completados dentro de un tiempo objetivo, tasa de éxito seguro por etapa y disponibilidad de las puertas críticas, medidos sobre una ventana definida.",
+      "en": "The share of eligible tickets completed within a target time, safe per-stage success rate, and availability of critical gates over a defined window."
+    }
+  },
+  {
+    "id": "AG-094",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Entrega y gobernanza",
+      "en": "Delivery and governance"
+    },
+    "question": {
+      "es": "¿Qué diferencia hay entre aprobar un PR y autorizar un despliegue a producción?",
+      "en": "What is the difference between approving a PR and authorizing a production deployment?"
+    },
+    "answer": {
+      "es": "El PR acepta un cambio para integrar; producción es una acción de impacto distinta que puede requerir evidencia, aprobaciones, estrategia de rollout y capacidad de rollback.",
+      "en": "PR approval accepts a change for integration; production is a separate high-impact action that may require evidence, approvals, rollout strategy, and rollback capability."
+    },
+    "explanation": {
+      "es": "El PR acepta un cambio para integrar; producción es una acción de impacto distinta que puede requerir evidencia, aprobaciones, estrategia de rollout y capacidad de rollback.",
+      "en": "PR approval accepts a change for integration; production is a separate high-impact action that may require evidence, approvals, rollout strategy, and rollback capability."
+    }
+  },
+  {
+    "id": "AG-095",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Entrega y gobernanza",
+      "en": "Delivery and governance"
+    },
+    "question": {
+      "es": "¿Cómo separarías la generación del artefacto y su despliegue?",
+      "en": "How would you separate artifact creation from deployment?"
+    },
+    "answer": {
+      "es": "Construye una vez un artefacto inmutable identificado por digest, verifica y promueve ese mismo artefacto entre entornos con aprobaciones apropiadas.",
+      "en": "Build one immutable artifact identified by digest, verify it, and promote that same artifact across environments with appropriate approvals."
+    },
+    "explanation": {
+      "es": "Construye una vez un artefacto inmutable identificado por digest, verifica y promueve ese mismo artefacto entre entornos con aprobaciones apropiadas.",
+      "en": "Build one immutable artifact identified by digest, verify it, and promote that same artifact across environments with appropriate approvals."
+    }
+  },
+  {
+    "id": "AG-096",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Entrega y gobernanza",
+      "en": "Delivery and governance"
+    },
+    "question": {
+      "es": "¿Qué es una estrategia canary y cómo encaja con un despliegue automatizado?",
+      "en": "What is a canary strategy and how does it fit automated deployment?"
+    },
+    "answer": {
+      "es": "Expone gradualmente una versión a una fracción del tráfico, observa SLI y revierte o detiene si excede umbrales definidos.",
+      "en": "It gradually exposes a version to a fraction of traffic, observes SLIs, and rolls back or stops if defined thresholds are exceeded."
+    },
+    "explanation": {
+      "es": "Expone gradualmente una versión a una fracción del tráfico, observa SLI y revierte o detiene si excede umbrales definidos.",
+      "en": "It gradually exposes a version to a fraction of traffic, observes SLIs, and rolls back or stops if defined thresholds are exceeded."
+    }
+  },
+  {
+    "id": "AG-097",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Entrega y gobernanza",
+      "en": "Delivery and governance"
+    },
+    "question": {
+      "es": "¿Cómo diseñarías rollback de una versión desplegada por un agente?",
+      "en": "How would you design rollback for an agent-deployed release?"
+    },
+    "answer": {
+      "es": "Usa artefactos versionados, migraciones compatibles hacia atrás, estrategia automática basada en salud y autorización explícita; registra quién inició y completó el rollback.",
+      "en": "Use versioned artifacts, backward-compatible migrations, health-based automated strategy, and explicit authorization; record who initiated and completed rollback."
+    },
+    "explanation": {
+      "es": "Usa artefactos versionados, migraciones compatibles hacia atrás, estrategia automática basada en salud y autorización explícita; registra quién inició y completó el rollback.",
+      "en": "Use versioned artifacts, backward-compatible migrations, health-based automated strategy, and explicit authorization; record who initiated and completed rollback."
+    }
+  },
+  {
+    "id": "AG-098",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Entrega y gobernanza",
+      "en": "Delivery and governance"
+    },
+    "question": {
+      "es": "¿Qué evidencias de procedencia (provenance) conservarías?",
+      "en": "What provenance evidence would you retain?"
+    },
+    "answer": {
+      "es": "Relación entre ticket, contexto y fuentes, commit, versiones de modelos/prompts, acciones de herramientas, evaluaciones, aprobación, artefacto y despliegue.",
+      "en": "The links between ticket, context and sources, commit, model/prompt versions, tool actions, evaluations, approvals, artifact, and deployment."
+    },
+    "explanation": {
+      "es": "Relación entre ticket, contexto y fuentes, commit, versiones de modelos/prompts, acciones de herramientas, evaluaciones, aprobación, artefacto y despliegue.",
+      "en": "The links between ticket, context and sources, commit, model/prompt versions, tool actions, evaluations, approvals, artifact, and deployment."
+    }
+  },
+  {
+    "id": "AG-099",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Entrega y gobernanza",
+      "en": "Delivery and governance"
+    },
+    "question": {
+      "es": "¿Cómo harías auditable una decisión autónoma del agente?",
+      "en": "How would you make an autonomous agent decision auditable?"
+    },
+    "answer": {
+      "es": "Registra entradas referenciadas, política aplicada, salida estructurada, herramientas llamadas, identidad, versiones y resultado, minimizando datos sensibles.",
+      "en": "Record referenced inputs, applied policy, structured output, tools called, identity, versions, and outcome while minimizing sensitive data."
+    },
+    "explanation": {
+      "es": "Registra entradas referenciadas, política aplicada, salida estructurada, herramientas llamadas, identidad, versiones y resultado, minimizando datos sensibles.",
+      "en": "Record referenced inputs, applied policy, structured output, tools called, identity, versions, and outcome while minimizing sensitive data."
+    }
+  },
+  {
+    "id": "AG-100",
+    "level": {
+      "es": "Avanzado",
+      "en": "Advanced"
+    },
+    "category": {
+      "es": "Entrega y gobernanza",
+      "en": "Delivery and governance"
+    },
+    "question": {
+      "es": "¿Qué significa segregación de funciones en un pipeline agentic?",
+      "en": "What does separation of duties mean in an agentic pipeline?"
+    },
+    "answer": {
+      "es": "Que quien propone o implementa un cambio no sea la única identidad que lo valida y despliega; aplica controles de aprobación independientes según riesgo.",
+      "en": "The identity proposing or implementing a change is not the only one validating and deploying it; apply independent approval controls according to risk."
+    },
+    "explanation": {
+      "es": "Que quien propone o implementa un cambio no sea la única identidad que lo valida y despliega; aplica controles de aprobación independientes según riesgo.",
+      "en": "The identity proposing or implementing a change is not the only one validating and deploying it; apply independent approval controls according to risk."
+    }
+  }
+]

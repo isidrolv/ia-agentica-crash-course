@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Curso IA Agéntica">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Intermedio · Jira - IA Agéntica · Ingeniería de software</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">IA Agéntica · Ingeniería de software</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../curso-90-dias/" class="nav-link">Curso de 90 días</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../PIPELINE_OBJETIVO/" class="nav-link">Pipeline objetivo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../autoevaluacion/" class="nav-link">Autoevaluación</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Ejercicios</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../" class="dropdown-item">Índice</a>
+</li>
+                                    
+<li>
+    <a href="../01-basic-context-package/" class="dropdown-item">Básico · Contexto</a>
+</li>
+                                    
+<li>
+    <a href="../02-basic-acceptance-criteria/" class="dropdown-item">Básico · Criterios</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Intermedio · Jira</a>
+</li>
+                                    
+<li>
+    <a href="../04-intermediate-parallel-tests/" class="dropdown-item">Intermedio · Pruebas paralelas</a>
+</li>
+                                    
+<li>
+    <a href="../05-advanced-prompt-injection/" class="dropdown-item">Avanzado · Prompt injection</a>
+</li>
+                                    
+<li>
+    <a href="../06-advanced-release-gates/" class="dropdown-item">Avanzado · Release gates</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Buscar
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../02-basic-acceptance-criteria/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Anterior
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../04-intermediate-parallel-tests/" class="nav-link">
+                                    Siguiente <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Tabla de contenidos">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#ejercicio-3-disparador-de-jira-idempotente-intermedio" class="nav-link">Ejercicio 3 — Disparador de Jira idempotente (Intermedio)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#problema-escenario-de-ejecucion" class="nav-link">Problema / escenario de ejecución</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#inputs" class="nav-link">Inputs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#outputs-esperados" class="nav-link">Outputs esperados</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#tu-solucion-propuesta-incompleta" class="nav-link">Tu solución propuesta (incompleta)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#respuesta-correcta-esperada" class="nav-link">Respuesta correcta esperada</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="ejercicio-3-disparador-de-jira-idempotente-intermedio">Ejercicio 3 — Disparador de Jira idempotente (Intermedio)<a class="headerlink" href="#ejercicio-3-disparador-de-jira-idempotente-intermedio" title="Permanent link">&para;</a></h1>
+<h2 id="problema-escenario-de-ejecucion">Problema / escenario de ejecución<a class="headerlink" href="#problema-escenario-de-ejecucion" title="Permanent link">&para;</a></h2>
+<p>Jira envía dos webhooks iguales cuando <code>PAY-88</code> pasa a <code>In Progress</code>. Un worker ve el primer evento tarde y el segundo antes. No se debe abrir dos PRs ni ejecutar dos pipelines completos.</p>
+<h2 id="inputs">Inputs<a class="headerlink" href="#inputs" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Eventos con <code>issueKey</code>, <code>transitionId</code>, timestamp y firma.</li>
+<li>Consulta de estado actual de Jira.</li>
+<li>Registro durable de ejecuciones y PR existentes.</li>
+</ul>
+<h2 id="outputs-esperados">Outputs esperados<a class="headerlink" href="#outputs-esperados" title="Permanent link">&para;</a></h2>
+<p>Un <code>runId</code> único o una decisión <code>DUPLICATE/NOT_ELIGIBLE</code>; auditoría del evento y un único pipeline activo.</p>
+<h2 id="tu-solucion-propuesta-incompleta">Tu solución propuesta (incompleta)<a class="headerlink" href="#tu-solucion-propuesta-incompleta" title="Permanent link">&para;</a></h2>
+<p>Completa la clave idempotente y el orden de validaciones:</p>
+<pre><code class="language-text">1. Validar ...
+2. Construir clave: ...
+3. Consultar ...
+4. Si ya ... entonces ...
+5. Crear ...
+</code></pre>
+<h2 id="respuesta-correcta-esperada">Respuesta correcta esperada<a class="headerlink" href="#respuesta-correcta-esperada" title="Permanent link">&para;</a></h2>
+<p>Valida firma/autenticidad, issue/proyecto elegible y transición; consulta el estado actual de Jira porque el evento puede estar atrasado; usa clave durable como <code>(issueKey, transitionId, workflowVersion)</code> con restricción única/lock; reclama un lease y crea o reanuda una sola ejecución. Reintentos deben ser idempotentes. Si el ticket ya salió de <code>In Progress</code>, no iniciar trabajo nuevo; registrar y reconciliar.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentación construida con <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Buscar</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <p>Desde aquí puede buscar estos documentos. Ingrese sus términos de búsqueda a continuación.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Buscando..." id="mkdocs-search-query" title="Escriba el término de búsqueda aquí">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No se encontraron resultados"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Atajos de teclado</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Teclas</th>
+                    <th>Acción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Abrir esta ayuda</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Página siguiente</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Página anterior</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Buscar</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

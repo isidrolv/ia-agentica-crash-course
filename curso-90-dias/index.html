@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Curso IA Agéntica">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Curso de 90 días - IA Agéntica · Ingeniería de software</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">IA Agéntica · Ingeniería de software</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Curso de 90 días</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../PIPELINE_OBJETIVO/" class="nav-link">Pipeline objetivo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../autoevaluacion/" class="nav-link">Autoevaluación</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Ejercicios</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../examples/" class="dropdown-item">Índice</a>
+</li>
+                                    
+<li>
+    <a href="../examples/01-basic-context-package/" class="dropdown-item">Básico · Contexto</a>
+</li>
+                                    
+<li>
+    <a href="../examples/02-basic-acceptance-criteria/" class="dropdown-item">Básico · Criterios</a>
+</li>
+                                    
+<li>
+    <a href="../examples/03-intermediate-jira-trigger/" class="dropdown-item">Intermedio · Jira</a>
+</li>
+                                    
+<li>
+    <a href="../examples/04-intermediate-parallel-tests/" class="dropdown-item">Intermedio · Pruebas paralelas</a>
+</li>
+                                    
+<li>
+    <a href="../examples/05-advanced-prompt-injection/" class="dropdown-item">Avanzado · Prompt injection</a>
+</li>
+                                    
+<li>
+    <a href="../examples/06-advanced-release-gates/" class="dropdown-item">Avanzado · Release gates</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Buscar
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Anterior
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../PIPELINE_OBJETIVO/" class="nav-link">
+                                    Siguiente <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Tabla de contenidos">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#curso-de-ia-agentica-para-ingenieria-de-software-90-dias" class="nav-link">Curso de IA Agéntica para ingeniería de software — 90 días</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#resultado-demostrable" class="nav-link">Resultado demostrable</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ritmo-neuro-optimizado" class="nav-link">Ritmo neuro-optimizado</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#programa-de-13-semanas" class="nav-link">Programa de 13 semanas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#hitos-de-306090-dias" class="nav-link">Hitos de 30/60/90 días</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#registro-de-aprendizaje" class="nav-link">Registro de aprendizaje</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="curso-de-ia-agentica-para-ingenieria-de-software-90-dias">Curso de IA Agéntica para ingeniería de software — 90 días<a class="headerlink" href="#curso-de-ia-agentica-para-ingenieria-de-software-90-dias" title="Permanent link">&para;</a></h1>
+<h2 id="resultado-demostrable">Resultado demostrable<a class="headerlink" href="#resultado-demostrable" title="Permanent link">&para;</a></h2>
+<p>Construir un prototipo que tome una historia elegible de Jira, reúna contexto verificable, coordine agentes separados para planificación, código y pruebas, ejecute revisión independiente y permita que CI/CD avance solo tras cumplir puertas de calidad. El pipeline debe poder pausarse, reanudarse, auditarse y recuperarse ante fallos. Para producción, integrar aprobación humana según riesgo.</p>
+<blockquote>
+<p><strong>Expectativa realista:</strong> 90 días de práctica enfocada pueden llevarte a un nivel avanzado y a un prototipo funcional; “1% superior” no es medible ni garantizable sin una población y una evaluación definidas. Aquí se aproxima mediante un examen acumulativo, una demo reproducible y una revisión de amenazas.</p>
+</blockquote>
+<h2 id="ritmo-neuro-optimizado">Ritmo neuro-optimizado<a class="headerlink" href="#ritmo-neuro-optimizado" title="Permanent link">&para;</a></h2>
+<p>Plan orientativo: <strong>10–12 horas por semana</strong>, seis días de práctica y uno ligero. Ajusta el tiempo si tus obligaciones lo requieren.</p>
+<ul>
+<li><strong>Recuerdo activo:</strong> comienza cada sesión escribiendo o dibujando lo que recuerdas sin consultar notas; luego verifica y corrige.</li>
+<li><strong>Repetición espaciada:</strong> repasa cada concepto al terminar, al día siguiente, a los 3, 7, 14 y 30 días. Usa <code>quiz_console_pro.py --review-only</code> o el modo de tarjetas.</li>
+<li><strong>Intercalación:</strong> alterna diseño de agentes, integración, seguridad, pruebas y operación; evita estudiar una única herramienta durante semanas sin contexto.</li>
+<li><strong>Feynman:</strong> explica cada semana un concepto en lenguaje simple, con diagrama, ejemplo y una limitación; si no puedes, identifica la laguna y vuelve a estudiarla.</li>
+<li><strong>Práctica deliberada:</strong> entrega algo ejecutable o revisable cada semana. Usa fallos controlados, no solo lecturas.</li>
+<li><strong>Evaluación:</strong> registra porcentaje recordado, latencia/costo del prototipo, defectos encontrados, falsos positivos/negativos y decisiones humanas.</li>
+</ul>
+<h3 id="rutina-semanal-sugerida">Rutina semanal sugerida<a class="headerlink" href="#rutina-semanal-sugerida" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Día</th>
+<th>Sesión (60–120 min)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lunes</td>
+<td>Recuerdo activo de la semana anterior + concepto nuevo + notas Feynman.</td>
+</tr>
+<tr>
+<td>Martes</td>
+<td>Implementación guiada y pruebas pequeñas.</td>
+</tr>
+<tr>
+<td>Miércoles</td>
+<td>Tema intercalado (seguridad, calidad o sistemas distribuidos) aplicado al prototipo.</td>
+</tr>
+<tr>
+<td>Jueves</td>
+<td>Ejercicio sin apuntes; después consulta el material y corrige.</td>
+</tr>
+<tr>
+<td>Viernes</td>
+<td>Integración del entregable, test de regresión y revisión de decisiones.</td>
+</tr>
+<tr>
+<td>Sábado</td>
+<td>Demo de 5–10 minutos y retrospectiva: qué falló, qué automatizar y qué debe seguir con aprobación humana.</td>
+</tr>
+<tr>
+<td>Domingo</td>
+<td>Descanso o 15 minutos de tarjetas vencidas; no introduzcas contenido nuevo.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="programa-de-13-semanas">Programa de 13 semanas<a class="headerlink" href="#programa-de-13-semanas" title="Permanent link">&para;</a></h2>
+<h3 id="semana-1-fundamentos-de-ia-agentica">Semana 1 — Fundamentos de IA agéntica<a class="headerlink" href="#semana-1-fundamentos-de-ia-agentica" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> LLM vs agente, herramientas, ciclo observar–decidir–actuar, estado, límites de autonomía y fallos no deterministas.</li>
+<li><strong>Practica:</strong> crea un agente de solo lectura que clasifique historias ficticias en tipo, componente y riesgo; salida JSON validada.</li>
+<li><strong>Entregable:</strong> contrato de entrada/salida y 20 ejemplos de evaluación, incluyendo ticket ambiguo y prompt injection.</li>
+<li><strong>Recuerdo/Feynman:</strong> explica por qué un LLM no equivale a un workflow confiable.</li>
+</ul>
+<h3 id="semana-2-prompting-contexto-y-grounding">Semana 2 — Prompting, contexto y grounding<a class="headerlink" href="#semana-2-prompting-contexto-y-grounding" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> instrucciones, contexto, ventana de tokens, fuentes confiables, RAG, citas y gestión de incertidumbre.</li>
+<li><strong>Practica:</strong> agente de contexto que resuma una historia y cite documentos/repositorio; no escribe en Jira ni Git.</li>
+<li><strong>Entregable:</strong> paquete de contexto con requisitos, enlaces/fuentes, archivos candidatos, dudas y confianza.</li>
+<li><strong>Intercalación:</strong> vuelve a evaluar las historias de semana 1 con contexto insuficiente o contradictorio.</li>
+</ul>
+<h3 id="semana-3-diseno-de-herramientas-y-permisos">Semana 3 — Diseño de herramientas y permisos<a class="headerlink" href="#semana-3-diseno-de-herramientas-y-permisos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> schemas, validación, MCP, identidad, mínimo privilegio, credenciales efímeras y fronteras de confianza.</li>
+<li><strong>Practica:</strong> mock de Jira y Git con operaciones distintas de lectura y escritura; valida argumentos y permisos fuera del prompt.</li>
+<li><strong>Entregable:</strong> matriz de herramientas, permisos por agente y casos negativos de autorización.</li>
+</ul>
+<h3 id="semana-4-historias-criterios-y-jira">Semana 4 — Historias, criterios y Jira<a class="headerlink" href="#semana-4-historias-criterios-y-jira" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> historias pequeñas, criterios de aceptación, issue types, estados, webhooks/eventos, Rovo como posible buscador/contextualizador según disponibilidad y permisos.</li>
+<li><strong>Practica:</strong> crear historias de ejemplo y transformarlas en un contexto verificable; simular la transición a <code>In Progress</code>.</li>
+<li><strong>Entregable:</strong> esquema de historia listo para automatización y regla de elegibilidad (proyecto, etiqueta, criterios, riesgo).</li>
+<li><strong>Feynman:</strong> explica por qué un ticket no es una instrucción de sistema confiable.</li>
+</ul>
+<h3 id="semana-5-orquestacion-durable">Semana 5 — Orquestación durable<a class="headerlink" href="#semana-5-orquestacion-durable" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> workflow vs agente, máquinas de estado, colas, checkpointing, idempotencia, retries, backoff y cancelación.</li>
+<li><strong>Practica:</strong> workflow de estados <code>RECEIVED → CONTEXT_READY → PLANNED → IMPLEMENTING → VERIFYING → REVIEW → CI → DONE/BLOCKED</code>.</li>
+<li><strong>Entregable:</strong> diagrama de secuencia, registro durable de ejecución, deduplicación por issue/transición y cola de fallos.</li>
+</ul>
+<h3 id="semana-6-multiagente-y-contratos">Semana 6 — Multiagente y contratos<a class="headerlink" href="#semana-6-multiagente-y-contratos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> descomposición, handoffs, agentes especializados, coordinación, límites de paralelismo y consistencia.</li>
+<li><strong>Practica:</strong> agrega agente de planificación/arquitectura que entregue tareas, interfaces, archivos candidatos y riesgos.</li>
+<li><strong>Entregable:</strong> contratos versionados para contexto, plan, cambio de código, pruebas y revisión.</li>
+<li><strong>Intercalación:</strong> repetir tests de semanas 1–5 sobre entradas duplicadas, evento atrasado y tool call malformada.</li>
+</ul>
+<h3 id="semana-7-agente-de-codificacion">Semana 7 — Agente de codificación<a class="headerlink" href="#semana-7-agente-de-codificacion" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> contexto de repositorio, convenciones, ejecución en sandbox, ramas/worktrees, cambios pequeños y resumen de diff.</li>
+<li><strong>Practica:</strong> codificador que modifica una rama aislada a partir de plan aprobado y criterios; no puede hacer merge ni desplegar.</li>
+<li><strong>Entregable:</strong> un cambio pequeño con diff, pruebas locales y trazabilidad a criterios.</li>
+</ul>
+<h3 id="semana-8-agente-de-pruebas-en-paralelo">Semana 8 — Agente de pruebas en paralelo<a class="headerlink" href="#semana-8-agente-de-pruebas-en-paralelo" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> unitarias, integración, funcionales, contratos, fixtures, oráculos, tests de regresión y trabajo paralelo sin colisiones.</li>
+<li><strong>Practica:</strong> el agente de pruebas comienza desde criterios/contratos en una rama separada mientras el codificador implementa. Corre pruebas rápidas sobre snapshots identificados; comunica fallos reproducibles y vuelve a probar cambios nuevos.</li>
+<li><strong>Entregable:</strong> matriz criterio→caso de prueba y demostración de ciclo fallido-corregido. La suite completa corre una vez que el candidato está integrado/estable.</li>
+</ul>
+<h3 id="semana-9-seguridad-de-aplicaciones-y-agentes">Semana 9 — Seguridad de aplicaciones y agentes<a class="headerlink" href="#semana-9-seguridad-de-aplicaciones-y-agentes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> prompt injection directa/indirecta, OWASP para aplicaciones LLM, secretos, SSRF, exfiltración, cadena de suministro y sandbox.</li>
+<li><strong>Practica:</strong> ataque controlado desde un comentario de Jira o archivo README; demuestra que el texto no cambia permisos ni omite puertas.</li>
+<li><strong>Entregable:</strong> threat model, controles, logs redactados y reporte de escenarios de abuso.</li>
+</ul>
+<h3 id="semana-10-code-review-y-calidad">Semana 10 — Code review y calidad<a class="headerlink" href="#semana-10-code-review-y-calidad" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> revisión independiente, riesgos de falsos positivos, análisis estático, dependencias, cobertura útil y puertas de calidad.</li>
+<li><strong>Practica:</strong> agente reviewer separado del coder; hallazgos deben referenciar archivo/línea, criterio, severidad y evidencia. No aprueba su propio diff.</li>
+<li><strong>Entregable:</strong> flujo de hallazgos <code>BLOCK / FIX / RECHECK / PASS</code> y evaluación sobre PRs sembrados con defectos.</li>
+</ul>
+<h3 id="semana-11-cicd-y-despliegue-seguro">Semana 11 — CI/CD y despliegue seguro<a class="headerlink" href="#semana-11-cicd-y-despliegue-seguro" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> CI vs entrega/despliegue continuo, artefactos inmutables, promoción entre entornos, canary, rollback y aprobaciones.</li>
+<li><strong>Practica:</strong> pipeline local/mock que solo avanza si pruebas, revisión y escaneos requeridos pasan. Simula deploy de staging y rollback.</li>
+<li><strong>Entregable:</strong> reglas CI/CD versionadas; producción con gate humano hasta demostrar control y cumplir gobernanza organizacional.</li>
+</ul>
+<h3 id="semana-12-evaluacion-observabilidad-y-resiliencia">Semana 12 — Evaluación, observabilidad y resiliencia<a class="headerlink" href="#semana-12-evaluacion-observabilidad-y-resiliencia" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> evals probabilísticos, trazas distribuidas, métricas, costo/token, SLO, rate limit, backpressure, circuit breaker y reconciliación.</li>
+<li><strong>Practica:</strong> introduce caídas de Jira/modelo/CI, evento duplicado, timeout y cancelación; comprueba recuperación sin duplicar cambios.</li>
+<li><strong>Entregable:</strong> dashboard/trazas de una corrida, reporte de fallas y playbook de operación.</li>
+</ul>
+<h3 id="semana-13-integracion-final-y-evaluacion">Semana 13 — Integración final y evaluación<a class="headerlink" href="#semana-13-integracion-final-y-evaluacion" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Aprende:</strong> repaso intercalado y toma de decisiones basada en evidencia.</li>
+<li><strong>Construye:</strong> demo de extremo a extremo con historia de prueba, contexto trazable, plan, PR simulado, tests, code review, CI y estados de Jira sincronizados.</li>
+<li><strong>Evalúa:</strong> 80%+ de recuerdo en cada nivel del banco; 100% de criterios críticos trazables; ningún secreto en contexto/logs; eventos duplicados no duplican efectos; fallos críticos bloquean entrega; rollback ensayado.</li>
+<li><strong>Examen Feynman:</strong> graba una explicación de 10 minutos y responde: qué hace cada agente, quién tiene permisos, cómo se reanuda el pipeline y qué impide producción insegura.</li>
+</ul>
+<h2 id="hitos-de-306090-dias">Hitos de 30/60/90 días<a class="headerlink" href="#hitos-de-306090-dias" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Día 30:</strong> agente de contexto de solo lectura, criterios buenos y evaluación reproducible.</li>
+<li><strong>Día 60:</strong> orquestación durable, agente de código aislado y pruebas generadas en paralelo con sincronización segura.</li>
+<li><strong>Día 90:</strong> pipeline integrado, revisión independiente, CI/CD protegido, trazabilidad, recuperación y demo documentada.</li>
+</ul>
+<h2 id="registro-de-aprendizaje">Registro de aprendizaje<a class="headerlink" href="#registro-de-aprendizaje" title="Permanent link">&para;</a></h2>
+<p>Después de cada sesión registra: fecha, preguntas recordadas sin ayuda, errores y causa, concepto explicado con Feynman, próximo repaso (1/3/7/14/30 días), cambio del prototipo, riesgos/decisiones y siguiente experimento. Mide calidad además de velocidad: una automatización rápida que introduce defectos no es progreso.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentación construida con <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Buscar</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <p>Desde aquí puede buscar estos documentos. Ingrese sus términos de búsqueda a continuación.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Buscando..." id="mkdocs-search-query" title="Escriba el término de búsqueda aquí">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No se encontraron resultados"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Atajos de teclado</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Teclas</th>
+                    <th>Acción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Abrir esta ayuda</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Página siguiente</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Página anterior</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Buscar</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
