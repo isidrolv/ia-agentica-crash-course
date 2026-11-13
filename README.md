@@ -12,6 +12,7 @@ La aspiración de estar en el 1% superior es un objetivo de desempeño, no una g
 
 - [`docs/curso-90-dias.md`](docs/curso-90-dias.md): calendario semanal, práctica diaria, repetición espaciada y proyecto final.
 - [`docs/book/`](docs/book/README.md): libro desarrollado en 13 capítulos, con ejemplos, ejercicios y recuperación activa por semana.
+- [Video animado del plan](docs/video-plan.md): resumen narrado de las 13 semanas y los hitos 30/60/90 días.
 - [`docs/PIPELINE_OBJETIVO.md`](docs/PIPELINE_OBJETIVO.md): arquitectura de referencia, agentes, estados, paralelismo, seguridad y CI/CD.
 - [`docs/data/question_bank.json`](docs/data/question_bank.json): 100 reactivos en español e inglés.
 - [`docs/examples/`](docs/examples/README.md): seis ejercicios guiados básicos, intermedios y avanzados.
@@ -25,8 +26,8 @@ Inspiradas en las cuatro variantes del proyecto de referencia `ArchitecturalInte
 |---|---|
 | `quiz_console.py` | Sesión sencilla en terminal, español/inglés, por nivel y cantidad. |
 | `quiz_console_pro.py` | Filtros, semilla reproducible, repaso de falladas y exportación de sesión. |
-| `quiz_gui.py` | Examen gráfico con puntuación y lista de tarjetas a repasar. |
-| `quiz_gui_study.py` | Tarjetas gráficas con navegación, recuerdo activo y autoevaluación. |
+| `quiz_gui.py` | Examen gráfico con puntuación, repaso y selector de tema claro/oscuro/océano. |
+| `quiz_gui_study.py` | Tarjetas gráficas con navegación, recuerdo activo y selector de tema. |
 
 Las tarjetas usan recuperación activa: intenta responder antes de revelar y marca honestamente si lo recordaste. La puntuación es autoevaluada, no una calificación automática de texto libre.
 

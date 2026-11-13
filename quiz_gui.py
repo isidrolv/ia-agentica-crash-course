@@ -5,6 +5,7 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 
 from quiz_core import filter_questions, load_questions, localized
+from quiz_theme import THEME_LABELS, apply_theme, theme_key_from_label
 
 
 class QuizApp(tk.Tk):
@@ -13,7 +14,8 @@ class QuizApp(tk.Tk):
         self.title("IA Agéntica · Autoevaluación")
         self.geometry("900x650")
         self.minsize(720, 500)
-        self.configure(bg="#111827")
+        self.theme_key = "dark"
+        apply_theme(self, self.theme_key)
         self.bank = load_questions()
         self.lang = "es"
         self.questions = []
@@ -38,10 +40,20 @@ class QuizApp(tk.Tk):
         ttk.Combobox(form, textvariable=self.level_var,
                      values=["Todos / All", "Básico / Basic", "Intermedio / Intermediate", "Avanzado / Advanced"],
                      state="readonly", width=22).grid(row=1, column=1, padx=8)
-        ttk.Label(form, text="Cantidad (0 = todas)").grid(row=2, column=0, sticky="w", padx=8, pady=8)
+        ttk.Label(form, text="Tema UI / UI theme").grid(row=2, column=0, sticky="w", padx=8, pady=8)
+        self.theme_var = tk.StringVar(value=THEME_LABELS[self.theme_key])
+        theme_box = ttk.Combobox(form, textvariable=self.theme_var,
+                                 values=list(THEME_LABELS.values()), state="readonly", width=22)
+        theme_box.grid(row=2, column=1, padx=8)
+        theme_box.bind("<<ComboboxSelected>>", self._on_theme_changed)
+        ttk.Label(form, text="Cantidad (0 = todas)").grid(row=3, column=0, sticky="w", padx=8, pady=8)
         self.count_var = tk.StringVar(value="10")
-        ttk.Entry(form, textvariable=self.count_var, width=25).grid(row=2, column=1, padx=8)
+        ttk.Entry(form, textvariable=self.count_var, width=25).grid(row=3, column=1, padx=8)
         ttk.Button(panel, text="Comenzar / Start", command=self._start).pack(pady=24)
+
+    def _on_theme_changed(self, _event=None):
+        self.theme_key = theme_key_from_label(self.theme_var.get())
+        apply_theme(self, self.theme_key)
 
     def _clear(self):
         for child in self.winfo_children():

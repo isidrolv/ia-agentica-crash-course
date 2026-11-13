@@ -3,3 +3,5 @@ __pycache__/
 quiz_history.json
 session-*.json
 site/
+__pycache__/
+*.py[cod]

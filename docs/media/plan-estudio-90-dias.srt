@@ -1,0 +1,67 @@
+﻿1
+00:00:00,000 --> 00:00:12,507
+En noventa días vas a diseñar y demostrar un pipeline de ingeniería de software con IA agéntica. La meta no es tener más agentes, sino coordinar trabajo verificable, seguro y útil.
+
+2
+00:00:13,207 --> 00:00:26,089
+Cada semana combina recuerdo activo, práctica deliberada, intercalación y explicación Feynman. Repasa al día siguiente y después a los tres, siete, catorce y treinta días.
+
+3
+00:00:26,789 --> 00:00:40,235
+En la semana uno distingues un modelo de lenguaje de un agente y de un workflow. Construyes un clasificador de historias de solo lectura, con salida JSON y casos de evaluación, incluidos tickets ambiguos.
+
+4
+00:00:40,935 --> 00:00:55,837
+En la semana dos aprendes a seleccionar contexto y fundamentar respuestas con fuentes. El agente entrega requisitos, citas, archivos candidatos y preguntas pendientes; nunca inventa certeza cuando falta evidencia.
+
+5
+00:00:56,537 --> 00:01:08,973
+En la semana tres diseñas herramientas acotadas y separas lectura de escritura. El runtime valida argumentos y permisos por fuera del prompt; pruebas que las acciones no autorizadas se rechacen.
+
+6
+00:01:09,673 --> 00:01:22,760
+En la semana cuatro mejoras historias y criterios de aceptación, y simulas la transición de Jira a In Progress. Un ticket es entrada no confiable: no puede conceder permisos ni saltarse controles.
+
+7
+00:01:23,460 --> 00:01:36,222
+En la semana cinco el workflow conserva el estado y controla transiciones. Practicas checkpoints, eventos duplicados, backoff y cancelación para reanudar sin crear efectos repetidos.
+
+8
+00:01:36,922 --> 00:01:50,539
+En la semana seis agregas un planificador que propone tareas, interfaces y riesgos. Cada agente entrega resultados con contratos versionados; los cambios incompatibles se detienen, no se adivinan.
+
+9
+00:01:51,239 --> 00:02:02,671
+En la semana siete el agente de código trabaja en una rama y sandbox aislados. Produce un diff pequeño que no puede aprobarse, fusionarse ni desplegarse por su cuenta.
+
+10
+00:02:03,371 --> 00:02:17,697
+En la semana ocho el agente de pruebas trabaja en paralelo desde criterios y contratos, sin tocar los mismos archivos que el coder. Cada resultado se liga a un snapshot; la suite completa valida el commit integrado final.
+
+11
+00:02:18,397 --> 00:02:31,904
+En la semana nueve modelas amenazas e inyectas instrucciones maliciosas en tickets de prueba. Los permisos, secretos y límites de red se controlan técnicamente, no solo con instrucciones al modelo.
+
+12
+00:02:32,604 --> 00:02:44,561
+En la semana diez un reviewer distinto al coder busca defectos contra los criterios. Cada hallazgo apunta a archivo, línea y evidencia; los defectos críticos bloquean el avance.
+
+13
+00:02:45,261 --> 00:02:58,147
+En la semana once separas integración continua de despliegue. Promueves el mismo artefacto validado, usas gates reproducibles y ensayas canary y rollback; producción conserva aprobación humana.
+
+14
+00:02:58,847 --> 00:03:11,630
+En la semana doce evalúas calidad, costo y latencia, y conectas cada etapa con una traza. Simulas fallos de Jira, modelos y CI para comprobar recuperación sin duplicar efectos.
+
+15
+00:03:12,330 --> 00:03:26,241
+En la semana trece integras todo en una demo de extremo a extremo. Mides recuerdo por nivel, trazabilidad, seguridad, deduplicación y rollback; después explicas el sistema en diez minutos sin notas.
+
+16
+00:03:26,941 --> 00:03:41,933
+Al día treinta tendrás contexto confiable. Al día sesenta, código aislado y pruebas en paralelo. Al día noventa, un pipeline integrado con review, CI seguro, trazabilidad y recuperación demostrable.
+
+17
+00:03:42,633 --> 00:03:53,685
+Empieza pequeño, practica con datos sintéticos y demuestra cada control antes de aumentar autonomía. La calidad del sistema importa más que la cantidad de agentes.

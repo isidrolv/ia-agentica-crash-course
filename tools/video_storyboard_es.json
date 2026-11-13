@@ -1,0 +1,172 @@
+[
+  {
+    "kind": "intro",
+    "kicker": "PLAN DE ESTUDIO · 90 DÍAS",
+    "title": "IA agéntica para\ningeniería de software",
+    "focus_label": "LA META",
+    "focus": "Cada semana termina con una evidencia que puedes probar y explicar.",
+    "deliverable_label": "EL RECORRIDO",
+    "deliverable": "Jira → contexto → código → pruebas → review → CI/CD",
+    "voiceover": "En noventa días vas a diseñar y demostrar un pipeline de ingeniería de software con IA agéntica. La meta no es tener más agentes, sino coordinar trabajo verificable, seguro y útil."
+  },
+  {
+    "kind": "method",
+    "kicker": "EL MÉTODO",
+    "title": "Aprende haciendo.\nRecuerda explicando.",
+    "focus_label": "CADA SEMANA",
+    "focus": "Practica entre diez y doce horas, construye un entregable y mezcla diseño, código, pruebas y seguridad.",
+    "deliverable_label": "REPASO ESPACIADO",
+    "deliverable": "Recuerda al día 1, 3, 7, 14 y 30. Explica cada idea con Feynman.",
+    "voiceover": "Cada semana combina recuerdo activo, práctica deliberada, intercalación y explicación Feynman. Repasa al día siguiente y después a los tres, siete, catorce y treinta días."
+  },
+  {
+    "kind": "week", "week": 1,
+    "kicker": "SEMANA 01 · FUNDAMENTOS",
+    "title": "LLM, agente y workflow",
+    "focus_label": "APRENDER",
+    "focus": "Herramientas, ciclo observar-decidir-actuar, estado, autonomía acotada y no determinismo.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Clasificador de tickets de solo lectura, JSON validado y veinte casos de evaluación.",
+    "voiceover": "En la semana uno distingues un modelo de lenguaje de un agente y de un workflow. Construyes un clasificador de historias de solo lectura, con salida JSON y casos de evaluación, incluidos tickets ambiguos."
+  },
+  {
+    "kind": "week", "week": 2,
+    "kicker": "SEMANA 02 · CONTEXTO",
+    "title": "Prompting y grounding",
+    "focus_label": "APRENDER",
+    "focus": "Ventana de contexto, RAG, fuentes confiables, citas y expresión de incertidumbre.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Paquete de contexto con requisitos, fuentes, archivos candidatos y dudas abiertas.",
+    "voiceover": "En la semana dos aprendes a seleccionar contexto y fundamentar respuestas con fuentes. El agente entrega requisitos, citas, archivos candidatos y preguntas pendientes; nunca inventa certeza cuando falta evidencia."
+  },
+  {
+    "kind": "week", "week": 3,
+    "kicker": "SEMANA 03 · PERMISOS",
+    "title": "Herramientas seguras",
+    "focus_label": "APRENDER",
+    "focus": "Schemas, MCP, identidad, autorización, mínimo privilegio y credenciales efímeras.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Mock de Jira y Git; matriz de permisos y pruebas que demuestran denegaciones.",
+    "voiceover": "En la semana tres diseñas herramientas acotadas y separas lectura de escritura. El runtime valida argumentos y permisos por fuera del prompt; pruebas que las acciones no autorizadas se rechacen."
+  },
+  {
+    "kind": "week", "week": 4,
+    "kicker": "SEMANA 04 · JIRA",
+    "title": "Historias listas para agentes",
+    "focus_label": "APRENDER",
+    "focus": "Historias pequeñas, criterios Given-When-Then, estados y eventos confiables.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Esquema de issue y regla de elegibilidad para In Progress; Rovo es opcional.",
+    "voiceover": "En la semana cuatro mejoras historias y criterios de aceptación, y simulas la transición de Jira a In Progress. Un ticket es entrada no confiable: no puede conceder permisos ni saltarse controles."
+  },
+  {
+    "kind": "week", "week": 5,
+    "kicker": "SEMANA 05 · ORQUESTACIÓN",
+    "title": "Un workflow que se recupera",
+    "focus_label": "APRENDER",
+    "focus": "Máquinas de estado, colas, checkpoints, idempotencia, reintentos y cancelación.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Flujo durable de RECEIVED a DONE o BLOCKED, con deduplicación y cola de fallos.",
+    "voiceover": "En la semana cinco el workflow conserva el estado y controla transiciones. Practicas checkpoints, eventos duplicados, backoff y cancelación para reanudar sin crear efectos repetidos."
+  },
+  {
+    "kind": "week", "week": 6,
+    "kicker": "SEMANA 06 · MULTIAGENTE",
+    "title": "Roles y contratos claros",
+    "focus_label": "APRENDER",
+    "focus": "Descomposición, handoffs, dependencias, coordinación y límites del paralelismo.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Agente planificador y contratos versionados para contexto, código, pruebas y review.",
+    "voiceover": "En la semana seis agregas un planificador que propone tareas, interfaces y riesgos. Cada agente entrega resultados con contratos versionados; los cambios incompatibles se detienen, no se adivinan."
+  },
+  {
+    "kind": "week", "week": 7,
+    "kicker": "SEMANA 07 · CODIFICACIÓN",
+    "title": "Código aislado y trazable",
+    "focus_label": "APRENDER",
+    "focus": "Contexto de repositorio, sandbox, ramas, worktrees, diffs pequeños y convenciones.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Cambio pequeño en una rama aislada, con pruebas y trazabilidad a criterios.",
+    "voiceover": "En la semana siete el agente de código trabaja en una rama y sandbox aislados. Produce un diff pequeño que no puede aprobarse, fusionarse ni desplegarse por su cuenta."
+  },
+  {
+    "kind": "week", "week": 8,
+    "kicker": "SEMANA 08 · PRUEBAS",
+    "title": "Probar mientras se programa",
+    "focus_label": "APRENDER",
+    "focus": "Pruebas unitarias, de integración, funcionales, contratos, fixtures y oráculos.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Agente de pruebas en rama separada; suite final sobre el candidato integrado.",
+    "voiceover": "En la semana ocho el agente de pruebas trabaja en paralelo desde criterios y contratos, sin tocar los mismos archivos que el coder. Cada resultado se liga a un snapshot; la suite completa valida el commit integrado final."
+  },
+  {
+    "kind": "week", "week": 9,
+    "kicker": "SEMANA 09 · SEGURIDAD",
+    "title": "Resistir instrucciones maliciosas",
+    "focus_label": "APRENDER",
+    "focus": "Prompt injection, secretos, SSRF, sandbox, exfiltración y cadena de suministro.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Threat model, ataque controlado y evidencia de controles y logs redactados.",
+    "voiceover": "En la semana nueve modelas amenazas e inyectas instrucciones maliciosas en tickets de prueba. Los permisos, secretos y límites de red se controlan técnicamente, no solo con instrucciones al modelo."
+  },
+  {
+    "kind": "week", "week": 10,
+    "kicker": "SEMANA 10 · CALIDAD",
+    "title": "Revisión independiente",
+    "focus_label": "APRENDER",
+    "focus": "Hallazgos con evidencia, severidad, falsos positivos y puertas deterministas.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Reviewer de solo lectura; flujo BLOCK → FIX → RECHECK → PASS.",
+    "voiceover": "En la semana diez un reviewer distinto al coder busca defectos contra los criterios. Cada hallazgo apunta a archivo, línea y evidencia; los defectos críticos bloquean el avance."
+  },
+  {
+    "kind": "week", "week": 11,
+    "kicker": "SEMANA 11 · CI/CD",
+    "title": "Entregar con puertas seguras",
+    "focus_label": "APRENDER",
+    "focus": "CI, entrega continua, artefactos inmutables, canary, aprobaciones y rollback.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Pipeline mock con validaciones, despliegue a staging y rollback ensayado.",
+    "voiceover": "En la semana once separas integración continua de despliegue. Promueves el mismo artefacto validado, usas gates reproducibles y ensayas canary y rollback; producción conserva aprobación humana."
+  },
+  {
+    "kind": "week", "week": 12,
+    "kicker": "SEMANA 12 · OPERACIÓN",
+    "title": "Medir y recuperarse",
+    "focus_label": "APRENDER",
+    "focus": "Evals probabilísticos, trazas, métricas, SLO, rate limits y resiliencia.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Dashboard, reporte de fallos y playbook para caídas, duplicados y timeouts.",
+    "voiceover": "En la semana doce evalúas calidad, costo y latencia, y conectas cada etapa con una traza. Simulas fallos de Jira, modelos y CI para comprobar recuperación sin duplicar efectos."
+  },
+  {
+    "kind": "week", "week": 13,
+    "kicker": "SEMANA 13 · CAPSTONE",
+    "title": "Demuestra el sistema completo",
+    "focus_label": "APRENDER",
+    "focus": "Repaso intercalado, evaluación con evidencia y explicación Feynman.",
+    "deliverable_label": "CONSTRUIR",
+    "deliverable": "Demo Jira → PR simulado → pruebas → review → CI, con bloqueo y recuperación.",
+    "voiceover": "En la semana trece integras todo en una demo de extremo a extremo. Mides recuerdo por nivel, trazabilidad, seguridad, deduplicación y rollback; después explicas el sistema en diez minutos sin notas."
+  },
+  {
+    "kind": "milestones",
+    "kicker": "TUS HITOS",
+    "title": "De lo básico a la integración",
+    "focus_label": "DÍA 30",
+    "focus": "Contexto de solo lectura, criterios claros y evaluación reproducible.",
+    "deliverable_label": "DÍAS 60 Y 90",
+    "deliverable": "Día 60: código y pruebas paralelas. Día 90: pipeline integrado, seguro y observable.",
+    "voiceover": "Al día treinta tendrás contexto confiable. Al día sesenta, código aislado y pruebas en paralelo. Al día noventa, un pipeline integrado con review, CI seguro, trazabilidad y recuperación demostrable."
+  },
+  {
+    "kind": "outro",
+    "kicker": "EMPIEZA CON UN PROTOTIPO",
+    "title": "Una historia.\nUn flujo. Evidencia.",
+    "focus_label": "TU PRIMER PASO",
+    "focus": "Usa tickets sintéticos, herramientas mock y datos no sensibles.",
+    "deliverable_label": "RECUERDA",
+    "deliverable": "Automatiza tareas; conserva los controles. Mide calidad, no solo velocidad.",
+    "voiceover": "Empieza pequeño, practica con datos sintéticos y demuestra cada control antes de aumentar autonomía. La calidad del sistema importa más que la cantidad de agentes."
+  }
+]

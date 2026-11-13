@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 
 from quiz_core import filter_questions, load_questions, localized
+from quiz_theme import THEME_LABELS, apply_theme, theme_key_from_label
 
 
 class StudyApp(tk.Tk):
@@ -12,6 +13,8 @@ class StudyApp(tk.Tk):
         self.title("IA Agéntica · Modo estudio")
         self.geometry("950x700")
         self.minsize(740, 520)
+        self.theme_key = "dark"
+        apply_theme(self, self.theme_key)
         self.bank = load_questions()
         self.lang = "es"
         self.cards = []
@@ -35,7 +38,17 @@ class StudyApp(tk.Tk):
         ttk.Combobox(frame, textvariable=self.level,
                      values=["Todos / All", "Básico / Basic", "Intermedio / Intermediate", "Avanzado / Advanced"],
                      state="readonly", width=30).pack(pady=8)
+        ttk.Label(frame, text="Tema UI / UI theme").pack(pady=(12, 2))
+        self.theme_var = tk.StringVar(value=THEME_LABELS[self.theme_key])
+        theme_box = ttk.Combobox(frame, textvariable=self.theme_var,
+                                 values=list(THEME_LABELS.values()), state="readonly", width=30)
+        theme_box.pack(pady=8)
+        theme_box.bind("<<ComboboxSelected>>", self._on_theme_changed)
         ttk.Button(frame, text="Estudiar / Study", command=self.start).pack(pady=20)
+
+    def _on_theme_changed(self, _event=None):
+        self.theme_key = theme_key_from_label(self.theme_var.get())
+        apply_theme(self, self.theme_key)
 
     def start(self):
         self.lang = "en" if self.language.get() == "English" else "es"

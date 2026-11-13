@@ -14,8 +14,8 @@ Ejecuta los comandos desde la raíz del proyecto. Los programas de consola usan 
 |---|---|---|
 | Consola | `python quiz_console.py` | Sesión simple filtrada por idioma y nivel. |
 | Consola avanzada | `python quiz_console_pro.py --lang es --level advanced --count 15 --save historial.json` | Filtros, semilla reproducible, exportación y repaso de falladas. |
-| GUI de examen | `python quiz_gui.py` | Cuestionario gráfico con puntuación y resumen de repaso. |
-| GUI de estudio | `python quiz_gui_study.py` | Tarjetas navegables, revelar y autoevaluar. |
+| GUI de examen | `python quiz_gui.py` | Cuestionario gráfico con puntuación, repaso y temas oscuro, claro u océano. |
+| GUI de estudio | `python quiz_gui_study.py` | Tarjetas navegables, revelar, autoevaluar y cambiar tema. |
 
 La puntuación es deliberadamente autoevaluada: intenta recordar y explicar la respuesta antes de revelarla. No es una calificación automatizada de texto libre. Para fortalecer la retención, vuelve a las falladas al día siguiente y a los 3, 7, 14 y 30 días.
 
